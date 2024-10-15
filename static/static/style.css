@@ -85,12 +85,12 @@ code {
 }
     pre {
         border-radius: 10px;
-        max-width: 100%;
+        max-width: 92vw;
         padding: 15px;
+        overflow: scroll;
     }
     pre code {
         display: block;
-        overflow: scroll;
         max-height: 50vh;
     }
     code:not(pre code) {
@@ -290,5 +290,8 @@ button, .button {
     .row {
         margin-right: 0;
         margin-left: 0;
+    }
+    .header nav a {
+        margin: 0 12px 0 0;
     }
 }
