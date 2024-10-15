@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  {% if section.title %}
+    <title>{{ section.title }}</title>
+  {% elif page.title %}
+    <title>{{ page.title }}</title>
+  {% elif config.extra.default_title %}
+    <title>{{ config.extra.default_title }}</title>
+  {% endif %}
+  
+  {% block rss %}
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
+  {% endblock %}
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta property="og:image" content="{{ get_url(path="/static/thumb.png", trailing_slash=false) }}">
+  <link rel="shortcut icon" href="{{ get_url(path="/static/favicon.png", trailing_slash=false) }}" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" media="screen" href="/static/base.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="/static/style.css" />
+</head>
+
+<body>
+<div class="container-fluid main">
+  <header class="header row">
+    <div class="col-lg-6 col-md-12">
+      <div class="logo"><a href="/"><img src="/static/logo.svg" alt="{{ config.extra.default_title }}" /></a></div>
+    </div>
+    <nav class="col-lg-6 col-md-12">
+      <a href="https://dir.floss.fund/submit">Apply</a>
+      <a href="{{ get_url(path="@/faq.md") }}">FAQs</a>
+      <a href="https://dir.floss.fund">Discover</a>
+      <a href="{{ get_url(path="@/blog/_index.md") }}">Blog</a>
+    </nav>
+  </header>
+  <section class="section content">
+    {% block content %} {% endblock %}
+  </section>
+  
+  <footer class="footer">&copy; 2024. An initiative from <a href="https://zerodha.tech">Zerodha</a>.</footer>
+</div>
+<script>
+(() => {
+  document.querySelectorAll('a[data-copy-clipboard]').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const pre = [...document.querySelectorAll('pre')]
+        .reverse()
+        .find(el => el.compareDocumentPosition(link) & Node.DOCUMENT_POSITION_FOLLOWING);
+      if (pre) {
+        navigator.clipboard.writeText(pre.innerText);
+        const originalText = link.innerText;
+        link.innerText = 'Copied ✓';
+        setTimeout(() => link.innerText = originalText, 2000);
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+base_url = "https://floss.fund"
+
+
+generate_feeds = true
+generate_sitemap = true
+feed_filenames = ["rss.xml"]
+
+[markdown]
+highlight_code = true
+highlight_theme = "two-dark"
+
+[extra]
+default_title = "Funding for Free and Open Source projects - FLOSS/fund"

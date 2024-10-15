@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+
+{% set authors = load_data(path="content/authors.json") %}
+<h1 class="title">{{ section.title }}</h1>
+<br /><br />
+
+<section class="posts">
+  <ul class="posts-list">
+
+    {% for page in section.pages %}
+    {% set author = authors | get(key=page.authors[0]) %}
+    <li>
+      <article class="post">
+          <h2 class="title"><a href="{{ page.permalink | safe }}">{{ page.title }}</a></h2>
+          <p class="description">{{ page.description }}</p>          
+
+          <div class="row meta">
+            <div class="col-lg-6">
+              <div class="row avatar">
+                <div class="col-xs">
+                  <img src="{{ author.avatar }}" alt="{{ author.name }} photo" />
+                </div>
+                <div class="col-xs">
+                  <span class="name">{{ author.name }}</span>
+                  <span class="title">{{ author.title }}</span>
+                </div>
+              </div><!-- avatar -->
+            </div>
+
+            <div class="col-lg-6 date">
+              {{ page.date | date(format="%d %b %Y") }}
+            </div>
+          </div><!-- meta -->
+      </article>
+    </li>
+    {% endfor %}
+  </ul>  
+</section>
+
+{% endblock content %}

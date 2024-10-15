@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% set authors = load_data(path="content/authors.json") %}
+
+<section class="post">
+    {% set author = authors | get(key=page.authors[0]) %}
+    <article class="main-post">
+      <div class="row">
+        <div class="col-lg-3">
+            <div class="row avatar">
+              <div class="col-xs">
+                <img src="{{ author.avatar }}" alt="{{ author.name }} photo" />
+              </div>
+              <div class="col-xs">
+                <span class="name">{{ author.name }}</span>
+                <span class="title">{{ author.title }}</span>
+
+                <div class="links">
+                  {% if author.link %}
+                    <a href="{{ author.link }}"><img src="/static/ico-www.svg" alt="Homepage link" /></a>
+                  {% endif %}
+                  {% if author.github_link %}
+                    <a href="{{ author.github_link }}"><img src="/static/ico-github.svg" alt="GitHub link" /></a>
+                  {% endif %}
+                </div>
+              </div>
+            </div><!-- avatar -->
+        </div><!-- meta -->
+
+        <div class="col-lg-9">
+          <h1 class="title">{{ page.title }}</h1>
+          <!-- <div class="date">{{ page.date | date(format="%d %b %Y") }}</div> -->
+
+          {{ page.content | safe }}
+        </div><!-- post -->
+      </div>
+    </article>
+</section>
+
+{% endblock content %}
