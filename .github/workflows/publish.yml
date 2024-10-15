@@ -1,0 +1,19 @@
+on:
+  push:
+    branches:
+      - master
+
+name: Build and deploy GH Pages
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v4
+      - name: build_and_deploy
+        uses: shalzz/zola-deploy-action@v0.19.2
+        env:
+          # Target branch
+          PAGES_BRANCH: gh-pages
+          # Or if publishing to the same repo, use the automatic token
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
