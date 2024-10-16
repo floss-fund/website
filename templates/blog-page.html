@@ -7,8 +7,8 @@
     {% set author = authors | get(key=page.authors[0]) %}
     <article class="main-post">
       <div class="row">
-        <div class="col-lg-3">
-            <div class="row avatar">
+        <div class="col-3">
+            <div class="avatar">
               <div class="col-xs">
                 <img src="{{ author.avatar }}" alt="{{ author.name }} photo" />
               </div>
@@ -28,7 +28,7 @@
             </div><!-- avatar -->
         </div><!-- meta -->
 
-        <div class="col-lg-9">
+        <div class="col-9">
           <h1 class="title">{{ page.title }}</h1>
           <div class="date">{{ page.date | date(format="%d %b %Y") }}</div>
 

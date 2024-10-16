@@ -3,7 +3,6 @@
 
 {% set authors = load_data(path="content/authors.json") %}
 <h1 class="title">{{ section.title }}</h1>
-<br /><br />
 
 <section class="posts">
   <ul class="posts-list">
@@ -16,7 +15,7 @@
           <p class="description">{{ page.description }}</p>          
 
           <div class="row meta">
-            <div class="col-lg-6">
+            <div class="col-6">
               <div class="row avatar">
                 <div class="col-xs">
                   <img src="{{ author.avatar }}" alt="{{ author.name }} photo" />
@@ -28,7 +27,7 @@
               </div><!-- avatar -->
             </div>
 
-            <div class="col-lg-6 date">
+            <div class="col-6 date">
               {{ page.date | date(format="%d %b %Y") }}
             </div>
           </div><!-- meta -->

@@ -251,6 +251,7 @@ button, .button {
 
 .avatar {
     font-size: 0.875rem;
+    display: flex;
 }
     .avatar img {
         border-radius: 100%;
@@ -287,9 +288,15 @@ button, .button {
         padding: 20px;
         margin: 0;
     }
+    .header {
+        margin-bottom: 30px;
+    }
     .row {
         margin-right: 0;
         margin-left: 0;
+    }
+    .main-post .avatar {
+        margin: 0;
     }
     .header nav a {
         margin: 0 12px 0 0;
