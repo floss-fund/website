@@ -17,6 +17,32 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta property="og:image" content="{{ get_url(path="/static/thumb.png", trailing_slash=false) }}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.extra.default_description }}{% endif %}">
+
+  <!-- Facebook Meta Tags -->
+  {% if section %}
+    <meta property="og:url" content="{{ get_url(path=current_path, trailing_slash=false) }}">
+    <meta property="og:title" content="{{ section.title }}">
+  {% elif page %}
+    <meta property="og:url" content="{{ get_url(path=current_path, trailing_slash=false) }}">
+    <meta property="og:title" content="{{ page.title }}">
+  {% endif %}
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.extra.default_description }}{% endif %}">
+  <meta property="og:image" content="{{ get_url(path='/static/thumb.png', trailing_slash=false) }}">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="floss.fund">
+  <meta property="twitter:url" content="{{ get_url(path=current_path, trailing_slash=false) }}">
+  {% if section %}
+    <meta name="twitter:title" content="{{ section.title }}">
+  {% elif page %}
+    <meta name="twitter:title" content="{{ page.title }}">
+  {% endif %}
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ config.extra.default_description }}{% endif %}">
+  <meta name="twitter:image" content="{{ get_url(path='/static/thumb.png', trailing_slash=false) }}">
+
+
   <link rel="shortcut icon" href="{{ get_url(path="/static/favicon.png", trailing_slash=false) }}" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
