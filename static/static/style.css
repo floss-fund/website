@@ -143,21 +143,24 @@ button, .button {
     margin-bottom: 30px;
 }
 
-.container-fluid {
-    max-width: 1200px;
-}
-
 .header {
     margin-bottom: 10vh;
 }
-    .header nav {
+    .header .nav {
         text-align: right;
     }
-        .header nav a {
-            margin-left: 30px;
-            text-decoration: none;
-        }
+    .header .nav a {
+        margin-left: 30px;
+        text-decoration: none;
+    }
 
+    #nav-toggle {
+        display: none;
+    }
+    .nav-toggle-label {
+        display: none;
+        cursor: pointer;
+    }
 
 .logo img {
     max-height: 72px;
@@ -206,7 +209,9 @@ button, .button {
     }
 
 .footer {
-    margin: 60px 0 15px 0;
+    border-top: 1px solid #e3d2af;
+    padding-top: 30px;
+    margin: 10vh 0 15px 0;
     color: var(--secondary);
     font-size: 0.875rem;
 }
@@ -283,13 +288,37 @@ button, .button {
         top: 30px;
     }
 
-@media (max-width: 500px) {
+
+@media (max-width: 800px) {
     .main {
-        padding: 20px;
-        margin: 0;
+        margin: 15px 0;
     }
+    .header .nav a {
+        margin: 0 0 10px 0;
+        display: block;
+    }
+   .nav-toggle-label {
+        display: block;
+        padding: 0 0 0 15px;
+        position: relative;
+        font-size: 1.3rem;
+    }
+    .header .nav .items {
+        display: none;
+        position: absolute;
+        background: rgba(255,255,255,0.95);
+        left: 0;
+        right: 35px;
+        padding: 0px;
+        z-index: 100;
+        top: 70px;
+    }
+    #nav-toggle:checked ~ .items {
+        display: block !important;
+    }
+
     .header {
-        margin-bottom: 30px;
+        margin-bottom: 45px;
     }
     .row {
         margin-right: 0;
@@ -297,8 +326,5 @@ button, .button {
     }
     .main-post .avatar {
         margin: 0;
-    }
-    .header nav a {
-        margin: 0 12px 0 0;
     }
 }

@@ -138,11 +138,18 @@
 }
 
 /* Responsive Collapse */
-@media (max-width: 520px) {
+@media (max-width: 700px) {
+  .row {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  [class*="col-"] {
+    padding-left: 0;
+    padding-right: 0;
+  }
   [class*="col-"]:not(.col-fix) {
     flex: 0 0 100%;
     max-width: 100%;
-    padding: 5px 0;
   }
 
   [class*="col-offset-"]:not(.col-fix) {

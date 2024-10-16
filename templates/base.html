@@ -29,15 +29,20 @@
 <body>
 <div class="container main">
   <header class="header row">
-    <div class="col-6 col-md-12">
+    <div class="col-2 col-fix">
       <div class="logo"><a href="/"><img src="/static/logo.svg" alt="{{ config.extra.default_title }}" /></a></div>
     </div>
-    <nav class="col-6 col-md-12">
-      <a href="https://dir.floss.fund/submit">Apply</a>
-      <a href="{{ get_url(path="@/faq.md") }}">FAQs</a>
-      <a href="https://dir.floss.fund">Directory</a>
-      <a href="{{ get_url(path="@/funding-manifest.md") }}">Manifest</a>
-      <a href="{{ get_url(path="@/blog/_index.md") }}">Blog</a>
+    <nav class="col-10 col-fix nav">
+      <input type="checkbox" id="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle nav">☰</label>
+
+      <div class="items">
+        <a href="https://dir.floss.fund/submit">Apply</a>
+        <a href="{{ get_url(path="@/faq.md") }}">FAQs</a>
+        <a href="https://dir.floss.fund">Directory</a>
+        <a href="{{ get_url(path="@/funding-manifest.md") }}">Manifest</a>
+        <a href="{{ get_url(path="@/blog/_index.md") }}">Blog</a>
+      </div>
     </nav>
   </header>
   <section class="section content">
