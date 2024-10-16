@@ -7,6 +7,8 @@ slug = "funding-manifest"
 
 `funding.json` is an open manifest (JSON schema) that acts as a signaling and discovery mechanism for projects seeking funding. It is a self-contained manifest file that FOSS (Free and Open Source Software) projects, developers, and communities can host on their websites or repositories to describe their financial requirements in a structured, machine-readable manner. It acts like a robots.txt file or a progressive web app manifest, allowing it to be publicly crawled and indexed, to make projects in need of financial assistance discoverable.
 
+See this [example listing](https://dir.floss.fund/view/@example.com) for a demonstration of how a manifest could be parsed and presented.
+
 
 ## Schema
 
@@ -47,3 +49,10 @@ If the manifest references URLs, such as a project's webpage, that are not on th
 ### tags
 
 While the `tags[]` field under projects is meant for arbitrary lowercase-alphanumeric-dash strings to describe the projects, [project-tags.txt](/static/project-tags.txt) can be used as a reference list for uniformity.
+
+-----------
+
+## Tools
+
+- [Live manifest validator](https://dir.floss.fund/validate)
+- [Manifest builder UI](https://vishnukvmd.github.io/funding.json/)
