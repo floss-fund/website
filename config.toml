@@ -11,3 +11,4 @@ highlight_theme = "two-dark"
 
 [extra]
 default_title = "Funding for Free and Open Source projects - FLOSS/fund"
+default_description = 'FLOSS/fund is dedicated to supporting critical, impactful, and valuable Free/Libre and Open Source projects globally.'
