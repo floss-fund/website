@@ -16,8 +16,8 @@
   {% endblock %}
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta property="og:image" content="{{ get_url(path="/static/thumb.png", trailing_slash=false) }}">
-  <link rel="shortcut icon" href="{{ get_url(path="/static/favicon.png", trailing_slash=false) }}" />
+  <meta property="og:image" content="{{ get_url(path="/static/thumb.png", cachebust=true) }}">
+  <link rel="shortcut icon" href="{{ get_url(path="/static/favicon.png" ) }}" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
