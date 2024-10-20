@@ -38,7 +38,7 @@
         // Required. This describes one or more channels via which the entity can receive funds.
         "channels": [{
             "guid": "",                 // Required. A short unique ID for the channel. Lowercase-alphanumeric-dashes only. eg: mybank, my-paypal. Max len 32.
-            "type": "",                 // Required. [bank, gateway, cheque, cash, other].
+            "type": "",                 // Required. [bank, payment-provider, cheque, cash, other].
             "address": "",              // Optional. A short unstructured textual representation of the payment address for the channel. eg: "Account: 12345 (branch: ABCX)", "mypaypal@domain.com", "https://payment-url.com", or a physical address for cheques. Max len 250.
             "description": ""           // Optional. Any additional description or instructions for the payment channel. Max len 500.
         }],
