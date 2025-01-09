@@ -14,12 +14,12 @@
             "properties": {
                 "type": {
                     "type": "string",
-                    "description": "Type of the entity. Use the closest approximation.",
+                    "description": "Type of the entity. [individual, group, organisation, other], Use the closest approximation.",
                     "enum": ["individual", "group", "organisation", "other"]
                 },
                 "role": {
                     "type": "string",
-                    "description": "Role in relation to the project. Use the closest approximation.",
+                    "description": "Role in relation to the project. [owner, steward, maintainer, contributor, other]. Use the closest approximation.",
                     "enum": ["owner", "steward", "maintainer", "contributor", "other"]
                 },
                 "name": {
@@ -170,7 +170,7 @@
                             },
                             "type": {
                                 "type": "string",
-                                "description": "Type of the channel.",
+                                "description": "Type of the channel. [bank, payment-provider, cheque, cash, other].",
                                 "enum": ["bank", "payment-provider", "cheque", "cash", "other"]
                             },
                             "address": {
@@ -200,7 +200,7 @@
                             },
                             "status": {
                                 "type": "string",
-                                "description": "Indicates whether this plan is currently active or inactive.",
+                                "description": "Indicates whether this plan is currently active or inactive. [active, inactive].",
                                 "enum": ["active", "inactive"]
                             },
                             "name": {
@@ -223,7 +223,7 @@
                             },
                             "frequency": {
                                 "type": "string",
-                                "description": "Frequency of the funding.",
+                                "description": "Frequency of the funding. [one-time, weekly, fortnightly, monthly, yearly, other]",
                                 "enum": ["one-time", "weekly", "fortnightly", "monthly", "yearly", "other"]
                             },
                             "channels": {
