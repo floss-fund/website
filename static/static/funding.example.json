@@ -1,4 +1,5 @@
 {
+    "$schema": "https://floss.fund/static/funding.schema.json#",
     "version": "v1.0.0",
     "entity": {
         "type": "individual",
