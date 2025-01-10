@@ -57,9 +57,9 @@
                         },
                         "wellKnown": {
                             "type": "string",
-                            "description": "Required if the above url and the URL of the funding.json manifest do not have the same hostname.",
+                            "description": "Required if the above url and the URL of the funding.json manifest do not have the same hostname. This url should have the same hostname as the url to verify that the publisher of the manifest is authorised to solicit funding on behalf of the url. The url should end with /.well-known/funding-manifest-urls.",
                             "anyOf": [
-                                { "pattern": "^(https?://)" },
+                                { "pattern": "^(https?://).*/\\.well-known/funding-manifest-urls$" },
                                 { "pattern": "^$" }
                             ],
                             "maxLength": 250
@@ -106,8 +106,11 @@
                             },
                             "wellKnown": {
                                 "type": "string",
-                                "description": "Required if the above url and the URL of the funding.json manifest do not have the same hostname.",
-                                "pattern": "^(https?://)",
+                                "description": "Required if the above url and the URL of the funding.json manifest do not have the same hostname. This url should have the same hostname as the url to verify that the publisher of the manifest is authorised to solicit funding on behalf of the url. The url should end with /.well-known/funding-manifest-urls.",
+                                "anyOf": [
+                                    { "pattern": "^(https?://).*/\\.well-known/funding-manifest-urls$" },
+                                    { "pattern": "^$" }
+                                ],
                                 "maxLength": 250
                             }
                         }
@@ -124,8 +127,11 @@
                             },
                             "wellKnown": {
                                 "type": "string",
-                                "description": "Required if the above url and the URL of the funding.json manifest do not have the same hostname.",
-                                "pattern": "^(https?://)",
+                                "description": "Required if the above url and the URL of the funding.json manifest do not have the same hostname. This url should be a file in the repository to verify that the publisher of the manifest is authorised to solicit funding on behalf of the url. The url should end with /.well-known/funding-manifest-urls.",
+                                "anyOf": [
+                                    { "pattern": "^(https?://).*/\\.well-known/funding-manifest-urls$" },
+                                    { "pattern": "^$" }
+                                ],
                                 "maxLength": 250
                             }
                         }
