@@ -143,6 +143,11 @@ button, .button {
     margin-bottom: 30px;
 }
 
+.dim-small {
+    font-size: 0.875rem;
+    color: #888;
+}
+
 .header {
     margin-bottom: 10vh;
 }
@@ -184,9 +189,10 @@ button, .button {
     .intro p {
         color: #777;
     }
-    .definition {
-        font-size: 0.875rem;
-        color: #888;
+    .partner img {
+        display: block;
+        width: 75px;
+        margin-top: 15px;
     }
     .definition ul {
         padding: 0 0 0 15px;
