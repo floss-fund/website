@@ -19,7 +19,7 @@
                 },
                 "role": {
                     "type": "string",
-                    "description": "Role in relation to the project. [owner, steward, maintainer, contributor, other]. Use the closest approximation.",
+                    "description": "Role in relation to the entity. [owner, steward, maintainer, contributor, other]. Use the closest approximation.",
                     "enum": ["owner", "steward", "maintainer", "contributor", "other"]
                 },
                 "name": {
