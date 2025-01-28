@@ -12,7 +12,7 @@
         "description": "",              // Required. Information about the entity. Max len 2000.
         "webpageUrl": {
             "url": "",                  // Required. Webpage with information about the entity. Starts with https:// or http://. Max len 250.
-            "wellKnown": ""             // Optional. Required if the above url and the URL of the funding.json manifest do not have the same hostname. Starts with https:// or http://. Max len 250.
+            "wellKnown": ""             // Optional. Required if the above url and the URL of the funding.json manifest do not have the same hostname. This url should have the same hostname as the url to verify that the publisher of the manifest is authorised to solicit funding on behalf of the url. Starts with https:// or http:// and ends with /.well-known/funding-manifest-urls. Max len 250.
         }
     },
 
@@ -23,11 +23,11 @@
         "description": "",              // Required. Description of the project. Max len 2000.
         "webpageUrl": {
             "url": "",                  // Required. Webpage with information about the project. Starts with https:// or http://. Max len 250.
-            "wellKnown": ""             // Optional. Required if the above url and the URL of the funding.json manifest do not have the same hostname. Starts with https:// or http://. Max len 250.
+            "wellKnown": ""             // Optional. Required if the above url and the URL of the funding.json manifest do not have the same hostname. This url should have the same hostname as the url to verify that the publisher of the manifest is authorised to solicit funding on behalf of the url. Starts with https:// or http:// and ends with /.well-known/funding-manifest-urls. Max len 250.
         },
         "repositoryUrl": {
             "url": "",                  // Required. URL of the repository where the project's source code and other assets are available. Starts with https:// or http://. Max len 250.
-            "wellKnown": ""             // Optional. Required if the above url and the URL of the funding.json manifest do not have the same hostname. Starts with https:// or http://. Max len 250.
+            "wellKnown": ""             // Optional. Required if the above url and the URL of the funding.json manifest do not have the same hostname. This url should have the same hostname as the url to verify that the publisher of the manifest is authorised to solicit funding on behalf of the url. Starts with https:// or http:// and ends with /.well-known/funding-manifest-urls. Max len 250.
         },
         "licenses": [],                 // Required. The project's licenses (up to 5). For standard licenses, use the license ID from the SDPX index prefixed by "spdx:". eg: "spdx:GPL-3.0", "spdx:CC-BY-SA-4.0"
         "tags": []                      // Required. Up to 10 general tags describing the project. Lowercase-alphanumeric-dashes (max 32 chars). eg: ["programming", "developer-tools"]. For reference, see tags.txt
@@ -50,7 +50,7 @@
             "name": "",                 // Required. Name of the funding plan. eg: "Starter support plan", "Infra hosting", "Monthly funding plan".
             "description": "",          // Optional. Any additional description or instructions for the funding plan.
             "amount": 0,                // Required. The solicited amount for this plan. 0 is a wildcard that indicates "any amount".
-            "currency": "",             // Required. Three letter ISO 4217 currency code. eg: USD
+            "currency": "",             // Required. Three letter ISO 4217 currency code. eg: USD, EUR
             "frequency": "",            // Required. [one-time, weekly, fortnightly, monthly, yearly, other]
             "channels": []              // Required. One or more channel IDs defined in channels[] via which this plan can accept payments.
         }],
@@ -61,7 +61,7 @@
             "income": 0,                // Optional.
             "expenses": 0,              // Optional.
             "taxes": 0,                 // Optional.
-            "currency": "",             // Required. Three letter ISO 4217 currency code. eg: USD
+            "currency": "",             // Required. Three letter ISO 4217 currency code. eg: USD, EUR
             "description": ""           // Optional. Any additional description. Max length 500.
         }]
     }
