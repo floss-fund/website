@@ -61,7 +61,7 @@ How about a standardised <code>funding.json</code> manifest file that can be add
 {{ read_file(path="static/static/funding.example.json") }}
 ```
 
-To initiate and give this experiment a serious shot, FLOSS/fund will accept funding requests from projects through a publicly accessible <code>funding.json</code> file hosted on their respositories or websites. This file is not meant to convey everything there is to know—an impossible task—but to solicit interest and communicate enough to ensure discoverability which would not be possible otherwise. Refer to the [funding.json docs](/funding-manifest) to know more.
+To initiate and give this experiment a serious shot, FLOSS/fund will accept funding requests from projects through a publicly accessible <code>funding.json</code> file hosted on their respositories or websites. This file is not meant to convey everything there is to know—an impossible task—but to solicit interest and communicate enough to ensure discoverability which would not be possible otherwise. Visit [fundingjson.org](https://fundingjson.org) to know more.
 
 Applications that come through to the FLOSS/fund will be indexed and published on the [dir.floss.fund](https://dir.floss.fund) directory / portal, making them publicly discoverable by anyone interested in supporting projects. This is going to be an interesting experiment. Fingers crossed!
 

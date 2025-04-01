@@ -14,9 +14,8 @@ slug = "faq"
   Currently, our focus is on supporting existing, widely used, and impactful projects to specifically contribute to their sustainability. Very new projects or projects with minimal usage are not considered for the time being.
 
 - ### How to apply?
-  Write a `funding.json` manifest file and publish it on your website or project's repository.
-  Submit the URL to the [directory](https://dir.floss.fund/submit)</a>.
-  Why a JSON file and not a web form? Learn more about [funding.json](/funding-manifest)</a>.
+  Write a `funding.json` (see [fundingjson.org](https://fundingjson.org)) manifest file and publish it on your website or project's repository.
+  Submit the URL to the [directory](https://dir.floss.fund/submit).
 
 - ### What happens after an application?
   Your application will be publicly visible on the [public portal](https://dir.floss.fund). Our internal investment committee evaluates applications at the end of every quarter and communicates the decision via email. If your application is accepted, our team will reach out to you for the necessary paperwork (such as tax residency documents required by Indian laws) before processing the funds. This generally involves back-and-forth communication over email and can take up to 4 weeks.
