@@ -1,0 +1,286 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "required": ["version", "entity", "funding"],
+    "properties": {
+        "version": {
+            "type": "string",
+            "description": "Schema version"
+        },
+        "entity": {
+            "type": "object",
+            "description": "The entity associated with the project, soliciting funds.",
+            "required": ["type", "role", "name", "email", "description", "webpageUrl"],
+            "properties": {
+                "type": {
+                    "type": "string",
+                    "description": "Type of the entity. [individual, group, organisation, other], Use the closest approximation.",
+                    "enum": ["individual", "group", "organisation", "other"]
+                },
+                "role": {
+                    "type": "string",
+                    "description": "Role in relation to the entity. [owner, steward, maintainer, contributor, other]. Use the closest approximation.",
+                    "enum": ["owner", "steward", "maintainer", "contributor", "other"]
+                },
+                "name": {
+                    "type": "string",
+                    "description": "Name of the entity.",
+                    "maxLength": 250
+                },
+                "email": {
+                    "type": "string",
+                    "description": "Contact email.",
+                    "maxLength": 250
+                },
+                "phone": {
+                    "type": "string",
+                    "description": "Contact phone number. Generally suitable for organisations.",
+                    "maxLength": 32
+                },
+                "description": {
+                    "type": "string",
+                    "description": "Information about the entity.",
+                    "maxLength": 2000
+                },
+                "webpageUrl": {
+                    "type": "object",
+                    "required": ["url"],
+                    "properties": {
+                        "url": {
+                            "type": "string",
+                            "description": "Webpage with information about the entity.",
+                            "anyOf": [
+                                { "pattern": "^(https?://)" },
+                                { "pattern": "^$" }
+                            ],
+                            "maxLength": 250
+                        },
+                        "wellKnown": {
+                            "type": "string",
+                            "description": "Required if the above url and the URL of the funding.json manifest do not have the same hostname. This url should have the same hostname as the url to verify that the publisher of the manifest is authorised to solicit funding on behalf of the url. The url should end with /.well-known/funding-manifest-urls.",
+                            "anyOf": [
+                                { "pattern": "^(https?://).*/\\.well-known/funding-manifest-urls$" },
+                                { "pattern": "^$" }
+                            ],
+                            "maxLength": 250
+                        }
+                    }
+                }
+            }
+        },
+        "projects": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "description": "One or more projects for which the funding is solicited.",
+                "required": ["guid", "name", "description", "webpageUrl", "repositoryUrl", "licenses", "tags"],
+                "properties": {
+                    "guid": {
+                        "type": "string",
+                        "description": "A short unique ID for the project. Lowercase-alphanumeric-dashes only. eg: my-cool-project.",
+                        "anyOf": [
+                            { "pattern": "^[a-z0-9-]+$" },
+                            { "pattern": "^$" }
+                        ],
+                        "maxLength": 32
+                    },
+                    "name": {
+                        "type": "string",
+                        "description": "Name of the project.",
+                        "maxLength": 250
+                    },
+                    "description": {
+                        "type": "string",
+                        "description": "Description of the project.",
+                        "maxLength": 2000
+                    },
+                    "webpageUrl": {
+                        "type": "object",
+                        "required": ["url"],
+                        "properties": {
+                            "url": {
+                                "type": "string",
+                                "description": "Webpage with information about the project.",
+                                "pattern": "^(https?://)",
+                                "maxLength": 250
+                            },
+                            "wellKnown": {
+                                "type": "string",
+                                "description": "Required if the above url and the URL of the funding.json manifest do not have the same hostname. This url should have the same hostname as the url to verify that the publisher of the manifest is authorised to solicit funding on behalf of the url. The url should end with /.well-known/funding-manifest-urls.",
+                                "anyOf": [
+                                    { "pattern": "^(https?://).*/\\.well-known/funding-manifest-urls$" },
+                                    { "pattern": "^$" }
+                                ],
+                                "maxLength": 250
+                            }
+                        }
+                    },
+                    "repositoryUrl": {
+                        "type": "object",
+                        "required": ["url"],
+                        "properties": {
+                            "url": {
+                                "type": "string",
+                                "description": "URL of the repository where the project's source code and other assets are available.",
+                                "pattern": "^(https?://)",
+                                "maxLength": 250
+                            },
+                            "wellKnown": {
+                                "type": "string",
+                                "description": "Required if the above url and the URL of the funding.json manifest do not have the same hostname. This url should be a file in the repository to verify that the publisher of the manifest is authorised to solicit funding on behalf of the url. The url should end with /.well-known/funding-manifest-urls.",
+                                "anyOf": [
+                                    { "pattern": "^(https?://).*/\\.well-known/funding-manifest-urls$" },
+                                    { "pattern": "^$" }
+                                ],
+                                "maxLength": 250
+                            }
+                        }
+                    },
+                    "licenses": {
+                        "type": "array",
+                        "description": "The project's licenses (up to 5). For standard licenses, use the license ID from the SDPX index prefixed by \"spdx:\". eg: \"spdx:GPL-3.0\", \"spdx:CC-BY-SA-4.0\".",
+                        "maxItems": 5,
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "tags": {
+                        "type": "array",
+                        "description": "Up to 10 general tags describing the project. For reference, see https://floss.fund/static/project-tags.txt.",
+                        "maxItems": 10,
+                        "items": {
+                            "type": "string",
+                            "pattern": "^[a-z0-9-]+$",
+                            "maxLength": 32
+                        }
+                    }
+                }
+            }
+        },
+        "funding": {
+            "type": "object",
+            "description": "This describes one or more channels via which the entity can receive funds.",
+            "required": ["channels", "plans"],
+            "properties": {
+                "channels": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "required": ["guid", "type"],
+                        "properties": {
+                            "guid": {
+                                "type": "string",
+                                "description": "A short unique ID for the channel. Lowercase-alphanumeric-dashes only. eg: mybank, my-paypal.",
+                                "pattern": "^[a-z0-9-]+$",
+                                "maxLength": 32
+                            },
+                            "type": {
+                                "type": "string",
+                                "description": "Type of the channel. [bank, payment-provider, cheque, cash, other].",
+                                "enum": ["bank", "payment-provider", "cheque", "cash", "other"]
+                            },
+                            "address": {
+                                "type": "string",
+                                "description": "A short unstructured textual representation of the payment address for the channel. eg: \"Account: 12345 (branch: ABCX)\", \"mypaypal@domain.com\", \"https://payment-url.com\", or a physical address for cheques.",
+                                "maxLength": 250
+                            },
+                            "description": {
+                                "type": "string",
+                                "description": "Any additional description or instructions for the payment channel.",
+                                "maxLength": 500
+                            }
+                        }
+                    }
+                },
+                "plans": {
+                    "type": "array",
+                    "items": {
+                        "type": "object",
+                        "required": ["guid", "status", "name", "amount", "currency", "frequency", "channels"],
+                        "properties": {
+                            "guid": {
+                                "type": "string",
+                                "description": "A short unique ID for the plan. Lowercase-alphanumeric-dashes only. eg: mybank, paypal.",
+                                "pattern": "^[a-z0-9-]+$",
+                                "maxLength": 32
+                            },
+                            "status": {
+                                "type": "string",
+                                "description": "Indicates whether this plan is currently active or inactive. [active, inactive].",
+                                "enum": ["active", "inactive"]
+                            },
+                            "name": {
+                                "type": "string",
+                                "description": "Name of the funding plan. eg: \"Starter support plan\", \"Infra hosting\", \"Monthly funding plan\".",
+                                "maxLength": 250
+                            },
+                            "description": {
+                                "type": "string",
+                                "description": "Any additional description or instructions for the funding plan."
+                            },
+                            "amount": {
+                                "type": "number",
+                                "description": "The solicited amount for this plan. 0 is a wildcard that indicates \"any amount\"."
+                            },
+                            "currency": {
+                                "type": "string",
+                                "description": "Three letter ISO 4217 currency code. eg: USD, EUR.",
+                                "pattern": "^[A-Z]{3}$"
+                            },
+                            "frequency": {
+                                "type": "string",
+                                "description": "Frequency of the funding. [one-time, weekly, fortnightly, monthly, yearly, other]",
+                                "enum": ["one-time", "weekly", "fortnightly", "monthly", "yearly", "other"]
+                            },
+                            "channels": {
+                                "type": "array",
+                                "description": "One or more channel IDs defined in channels[] via which this plan can accept payments",
+                                "items": {
+                                    "type": "string",
+                                    "pattern": "^[a-z0-9-]+$",
+                                    "maxLength": 32
+                                }
+                            }
+                        }
+                    }
+                },
+                "history": {
+                    "type": "array",
+                    "description": "A simple summary of funding history. Only include if at least one, either income or expenses, have to be communicated.",
+                    "items": {
+                        "type": "object",
+                        "required": ["year", "currency"],
+                        "properties": {
+                            "year": {
+                                "type": "integer",
+                                "description": "Year (fiscal, preferably)."
+                            },
+                            "income": {
+                                "type": "number",
+                                "description": "Income for the year."
+                            },
+                            "expenses": {
+                                "type": "number",
+                                "description": "Expenses for the year."
+                            },
+                            "taxes": {
+                                "type": "number",
+                                "description": "Taxes for the year."
+                            },
+                            "currency": {
+                                "type": "string",
+                                "description": "Three letter ISO 4217 currency code. eg: USD, EUR.",
+                                "pattern": "^[A-Z]{3}$"
+                            },
+                            "description": {
+                                "type": "string",
+                                "description": "Any additional description.",
+                                "maxLength": 500
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
