@@ -14,12 +14,12 @@ Since launching FLOSS/fund in October 2024, we've received applications from div
 | Project                                                                                          | Amount   | Status     |
 | :----------------------------------------------------------------------------------------------- | :------- | :--------- |
 | [OpenSSL Library](https://dir.floss.fund/view/project/@github.com/openssl/openssllibrary)        | $100,000 | Disbursed |
+| [Krita](https://dir.floss.fund/view/project/@krita.org/.well-known/org-kde-krita)                | $50,000  | Disbursed |
 | [libjpeg-turbo](https://dir.floss.fund/view/project/@libjpeg-turbo.org/floss.fund/libjpeg-turbo) | $25,000  | Disbursed |
 | [x64dbg](https://dir.floss.fund/view/project/@ogilvie.pl/x64dbg)                                 | $10,000  | Disbursed  |
 | [Weblate](https://dir.floss.fund/view/project/@weblate.org/weblate)                              | $10,000  | Disbursed  |
 | [Network Time Protocol](https://dir.floss.fund/view/project/@www.nwtime.org/ntp)                 | $60,000  | Pending |
 | [ImageMagick](https://dir.floss.fund/view/project/@imagemagick.org/imagemagick)                  | $50,000  | Pending |
-| [Krita](https://dir.floss.fund/view/project/@krita.org/.well-known/org-kde-krita)                | $50,000  | Pending |
 | [XZ tools](https://dir.floss.fund/view/project/@tukaani.org/xz-utils)                            | $10,000  | Pending |
 | [LibreTranslate](https://dir.floss.fund/view/project/@libretranslate.com/libretranslate)         | $10,000  | Pending |
 |                                                                                                  | $325,000 |            |
