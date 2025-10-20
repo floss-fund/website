@@ -9,7 +9,7 @@
 
 <div>
     <p>
-      Started in 2024, FLOSS/fund is dedicated to supporting critical, impactful, and valuable
+      Started in 2024 at <a href="https://zerodha.com/open-source">Zerodha</a>, FLOSS/fund is dedicated to supporting critical, impactful, and valuable
       Free/Libre and Open Source projects globally.
       We give up to $1 million per year to support developers and communities
       that create and maintain projects, big and small.
@@ -39,7 +39,21 @@
         <a href="https://fossunited.org"><img src="{{ get_url(path="/static/fossunited.svg", cachebust=true) }}" alt="FOSS United Foundation logo">
         </a>
       </div>
-</div>
+    </div>
 
+    <hr />
+    <div class="updates">
+      <h3>Updates</h3>
+      {% set blog = get_section(path="blog/_index.md") %}
+      <ul>
+        {% for post in blog.pages | slice(end=10) %}
+        <li>
+          <a href="{{ post.permalink }}">{{ post.title }}</a>
+          <span class="date">{{ post.date | date(format="%B %d, %Y") }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+</div>
 
 {% endblock content %}

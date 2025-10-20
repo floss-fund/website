@@ -247,7 +247,7 @@ button, .button {
     }
 
 .footer {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #eee;
     padding-top: 30px;
     margin: 10vh 0 15px 0;
     color: var(--secondary);
@@ -295,7 +295,7 @@ button, .button {
     .post .title a {
         text-decoration: none;
     }
-    .post .date {
+    .date {
         color: #888;
     }
 
