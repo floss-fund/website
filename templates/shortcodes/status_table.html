@@ -1,0 +1,29 @@
+{%- import "macros/status_table.html" as table_macro -%}
+{%- set year = year -%}
+{%- set tranche = tranche | trim -%}
+{%- set data_path = "data/status/" ~ year ~ "/" ~ tranche ~ ".json" -%}
+{%- set data = load_data(path=data_path) -%}
+
+{% if data.items %}
+<div class="status-tranche">
+
+  {%- set_global total = 0 -%}
+  {%- set_global pending = 0 -%}
+  {%- set_global complete = 0 -%}
+
+  {% for item in data.items %}
+      {%- set_global total = total + item.amount -%}
+
+      {%- if item.status == "pending" -%}
+        {%- set_global pending = pending + item.amount -%}
+      {%- elif item.status == "complete" -%}
+        {%- set_global complete = complete + item.amount -%}
+      {%- endif -%}
+
+  {% endfor %}
+
+  <h3>Tranche {{ tranche }} ({{ data.date | date(format="%b %Y") }}) &mdash; ${{ total }}</h3>
+
+  {{ table_macro::render(items=data.items, total=total, complete=complete, pending=pending) }}
+</div>
+{% endif %}

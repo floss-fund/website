@@ -1,0 +1,29 @@
+{# Macro to render a status table with projects #}
+{% macro render(items, total, complete, pending) %}
+<table class="status-table">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th class="col-right">Amount</th>
+      <th class="col-right">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for item in items %}
+      <tr>
+        <td width="65%"><a href="{{ item.url }}" target="_blank">{{ item.name }}</a></td>
+        <td class="col-right">${{ item.amount }}</td>
+        <td class="col-right"><span class="status status-{{ item.status }}">{{ item.status | capitalize }}</span></td>
+      </tr>
+    {% endfor %}
+    <tr>
+      <td class="col-right"><strong>Complete</strong></td>
+      <td class="col-right" colspan="1"><strong>${{ complete }}</strong></td>
+    </tr>
+    <tr>
+      <td class="col-right"><strong>Pending</strong></td>
+      <td class="col-right" colspan="1"><strong>${{ pending }}</strong></td>
+    </tr>
+  </tbody>
+</table>
+{% endmacro render %}
