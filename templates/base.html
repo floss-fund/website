@@ -19,36 +19,40 @@
   <meta property="og:image" content="{{ get_url(path="/static/thumb.png", cachebust=true) }}">
   <link rel="shortcut icon" href="{{ get_url(path="/static/favicon.png" ) }}" />
 
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" media="screen" href="{{ get_url(path="/static/base.css", cachebust=true) }}" />
   <link rel="stylesheet" type="text/css" media="screen" href="{{ get_url(path="/static/style.css", cachebust=true) }}" />
 </head>
 
 <body>
-<div class="container main">
-  <header class="header row">
-    <div class="col-2 col-fix">
-      <div class="logo"><a href="/"><img src="/static/logo.svg" alt="{{ config.extra.default_title }}" /></a></div>
-    </div>
-    <nav class="col-10 col-fix nav">
-      <input type="checkbox" id="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle nav">☰</label>
-
-      <div class="items">
-        <a href="https://dir.floss.fund/submit">Apply</a>
-        <a href="{{ get_url(path="@/faq.md") }}">FAQs</a>
-        <a href="https://dir.floss.fund">Directory</a>
-        <a href="{{ get_url(path="@/blog/_index.md") }}">Blog</a>
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-2 col-fix">
+        <div class="logo"><a href="/"><img src="/static/logo.svg" alt="{{ config.extra.default_title }}" /></a></div>
       </div>
-    </nav>
-  </header>
+      <nav class="col-10 col-fix nav">
+        <input type="checkbox" id="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle nav">☰</label>
+
+        <div class="items">
+          <a href="{{ get_url(path="@/faq.md") }}">FAQs</a>
+          <a href="{{ get_url(path="@/projects/_index.md") }}">Projects</a>
+          <a href="{{ get_url(path="@/blog/_index.md") }}">Blog</a>
+          <a href="https://dir.floss.fund/submit">Apply</a>
+          <a href="https://dir.floss.fund">Directory</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<div class="container main">
   <section class="section content">
     {% block content %} {% endblock %}
   </section>
   
-  <footer class="footer">&copy; {{ now() | date(format="%Y") }}. An initiative from <a href="https://zerodha.tech">Zerodha</a>.</footer>
+  <footer class="footer">&copy; {{ now() | date(format="%Y") }}.
+    An initiative from <a href="https://zerodha.com/open-source"><img src="https://zerodha.com/static/images/logo.svg" alt="Zerodha logo"></a>
+  </footer>
 </div>
 <script>
 (() => {

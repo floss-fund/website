@@ -1,0 +1,185 @@
+{
+    "date": "2025-10-15",
+    "items": [
+        {
+            "name": "Blender",
+            "url": "https://dir.floss.fund/view/projects/@www.blender.org",
+            "amount": 25000,
+            "status": "pending"
+        },
+        {
+            "name": "Crystal",
+            "url": "https://dir.floss.fund/view/project/@crystal-lang.org/crystal-lang",
+            "amount": 15000,
+            "status": "pending"
+        },
+        {
+            "name": "Dokku",
+            "url": "https://dir.floss.fund/view/project/@dokku.com/dokku",
+            "amount": 10000,
+            "status": "pending"
+        },
+        {
+            "name": "dotenvx",
+            "url": "https://dir.floss.fund/view/project/@dotenvx.com/dotenvx",
+            "amount": 10000,
+            "status": "pending"
+        },
+        {
+            "name": "Ente",
+            "url": "https://dir.floss.fund/view/projects/@ente.io",
+            "amount": 25000,
+            "status": "pending"
+        },
+        {
+            "name": "F-Droid",
+            "url": "https://dir.floss.fund/view/@f-droid.org",
+            "amount": 50000,
+            "status": "pending"
+        },
+        {
+            "name": "FFmpeg",
+            "url": "https://dir.floss.fund/view/project/@ffmpeg.org/ffmpeg",
+            "amount": 100000,
+            "status": "pending"
+        },
+        {
+            "name": "freeCodeCamp",
+            "url": "https://dir.floss.fund/view/projects/@www.freecodecamp.org",
+            "amount": 10000,
+            "status": "pending"
+        },
+        {
+            "name": "Gleam",
+            "url": "https://dir.floss.fund/view/@gleam.run",
+            "amount": 15000,
+            "status": "pending"
+        },
+        {
+            "name": "Graphile",
+            "url": "https://dir.floss.fund/view/@www.graphile.org",
+            "amount": 10000,
+            "status": "pending"
+        },
+        {
+            "name": "HOTOSM",
+            "url": "https://dir.floss.fund/view/project/@github.com/hotosm/hotosm-tech-team",
+            "amount": 50000,
+            "status": "pending"
+        },
+        {
+            "name": "KDE e.V.",
+            "url": "https://dir.floss.fund/view/projects/@ev.kde.org/.well-known",
+            "amount": 25000,
+            "status": "pending"
+        },
+        {
+            "name": "Kiwix",
+            "url": "https://dir.floss.fund/view/projects/@kiwix.org",
+            "amount": 15000,
+            "status": "pending"
+        },
+        {
+            "name": "LFortran",
+            "url": "https://dir.floss.fund/view/projects/@lfortran.org",
+            "amount": 10000,
+            "status": "pending"
+        },
+        {
+            "name": "Matrix",
+            "url": "https://dir.floss.fund/view/projects/@matrix.org",
+            "amount": 25000,
+            "status": "pending"
+        },
+        {
+            "name": "OCaml/Tarides",
+            "url": "https://dir.floss.fund/view/projects/@github.com/tarides",
+            "amount": 10000,
+            "status": "complete"
+        },
+        {
+            "name": "OpenRefine",
+            "url": "https://dir.floss.fund/view/project/@openrefine.org/openrefine",
+            "amount": 25000,
+            "status": "pending"
+        },
+        {
+            "name": "OpenStreetMap",
+            "url": "https://dir.floss.fund/view/funding/@www.openstreetmap.org",
+            "amount": 30000,
+            "status": "pending"
+        },
+        {
+            "name": "pgmpy",
+            "url": "https://dir.floss.fund/view/project/@github.com/pgmpy/pgmpy",
+            "amount": 10000,
+            "status": "pending"
+        },
+        {
+            "name": "PocketBase",
+            "url": "https://dir.floss.fund/view/funding/@pocketbase.io",
+            "amount": 30000,
+            "status": "pending"
+        },
+        {
+            "name": "postmarketOS",
+            "url": "https://dir.floss.fund/view/project/@postmarketos.org/postmarketos",
+            "amount": 25000,
+            "status": "pending"
+        },
+        {
+            "name": "quic-go",
+            "url": "https://dir.floss.fund/view/@quic-go.net",
+            "amount": 10000,
+            "status": "pending"
+        },
+        {
+            "name": "Rethink DNS",
+            "url": "https://dir.floss.fund/view/project/@github.com/celzero/rethink",
+            "amount": 25000,
+            "status": "pending"
+        },
+        {
+            "name": "Sequoia PGP",
+            "url": "https://dir.floss.fund/view/projects/@sequoia-pgp.org",
+            "amount": 25000,
+            "status": "pending"
+        },
+        {
+            "name": "tus",
+            "url": "https://dir.floss.fund/view/project/@tus.io/tus",
+            "amount": 10000,
+            "status": "pending"
+        },
+        {
+            "name": "vale",
+            "url": "https://dir.floss.fund/view/@vale.sh",
+            "amount": 10000,
+            "status": "pending"
+        },
+        {
+            "name": "Wireshark",
+            "url": "https://dir.floss.fund/view/project/@wiresharkfoundation.org/wireshark",
+            "amount": 25000,
+            "status": "pending"
+        },
+        {
+            "name": "Yjs",
+            "url": "https://dir.floss.fund/view/projects/@github.com/yjs",
+            "amount": 10000,
+            "status": "pending"
+        },
+        {
+            "name": "Zen Browser",
+            "url": "https://dir.floss.fund/view/funding/@zen-browser.app",
+            "amount": 10000,
+            "status": "pending"
+        },
+        {
+            "name": "Zig",
+            "url": "https://dir.floss.fund/view/project/@ziglang.org/zig",
+            "amount": 25000,
+            "status": "pending"
+        }
+    ]
+}

@@ -34,7 +34,21 @@ slug = "faq"
   FLOSS/fund is an experiment to financially support projects and inspire others to do the same. We are starting out with $1 million, and if the program works as well as we hope it will, we plan to increase the size of the fund.
 
 - ### What is expected from a project that receives funding?
-  Only a public acknowledgement with a link to this website for others to discover the fund.
+  We request that you consider doing a public acknowledgement with a link to this website for others to discover the fund.
+  
+  Here are embeddable badges in case you would like to add one to your project's website.
+  
+  **Badge**
+
+  `<a href="https://floss.fund"><img src="/static/badge.svg" alt="FLOSS/fund badge" /></a>`
+
+  <a href="https://floss.fund"><img src="/static/badge.svg" alt="FLOSS/fund badge" /></a>
+
+  **Badge-full**
+
+  `<a href="https://floss.fund"><img src="/static/badge-full.svg" alt="FLOSS/fund badge" /></a>`
+
+  <a href="https://floss.fund"><img src="/static/badge-full.svg" alt="FLOSS/fund badge" /></a>
 
 ---------
 

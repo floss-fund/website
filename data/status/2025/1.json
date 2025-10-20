@@ -1,0 +1,59 @@
+{
+    "date": "2025-05-01",
+    "items": [
+        {
+            "name": "ImageMagick",
+            "url": "https://dir.floss.fund/view/project/@imagemagick.org/imagemagick",
+            "amount": 50000,
+            "status": "pending"
+        },
+        {
+            "name": "Krita",
+            "url": "https://dir.floss.fund/view/project/@krita.org/.well-known/org-kde-krita",
+            "amount": 50000,
+            "status": "complete"
+        },
+        {
+            "name": "LibreTranslate",
+            "url": "https://dir.floss.fund/view/project/@libretranslate.com/libretranslate",
+            "amount": 10000,
+            "status": "pending"
+        },
+        {
+            "name": "libjpeg-turbo",
+            "url": "https://dir.floss.fund/view/project/@libjpeg-turbo.org/floss.fund/libjpeg-turbo",
+            "amount": 25000,
+            "status": "complete"
+        },
+        {
+            "name": "Network Time Protocol",
+            "url": "https://dir.floss.fund/view/project/@www.nwtime.org/ntp",
+            "amount": 60000,
+            "status": "pending"
+        },
+        {
+            "name": "OpenSSL Library",
+            "url": "https://dir.floss.fund/view/project/@github.com/openssl/openssllibrary",
+            "amount": 100000,
+            "status": "complete"
+        },
+        {
+            "name": "Weblate",
+            "url": "https://dir.floss.fund/view/project/@weblate.org/weblate",
+            "amount": 10000,
+            "status": "complete"
+        },
+        {
+            "name": "x64dbg",
+            "url": "https://dir.floss.fund/view/project/@ogilvie.pl/x64dbg",
+            "amount": 10000,
+            "status": "complete"
+        },
+        {
+            "name": "XZ tools",
+            "url": "https://dir.floss.fund/view/project/@tukaani.org/xz-utils",
+            "amount": 10000,
+            "status": "pending"
+        }
+    ]
+}

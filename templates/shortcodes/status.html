@@ -1,0 +1,57 @@
+{%- import "macros/status_table.html" as table_macro -%}
+{%- set year = year -%}
+{%- set files = files | split(pat=",") -%}
+
+{%- set total_all = 0 -%}
+{%- set pending_all = 0 -%}
+{%- set complete_all = 0 -%}
+
+{% for file in files %}
+  {%- set file_trimmed = file | trim -%}
+  {%- set data_path = "data/status/" ~ year ~ "/" ~ file_trimmed ~ ".json" -%}
+  {%- set data = load_data(path=data_path) -%}
+
+  {% if data.items %}
+  <div class="status-tranche">
+
+    {%- set_global total = 0 -%}
+    {%- set_global pending = 0 -%}
+    {%- set_global complete = 0 -%}
+
+    {% for item in data.items %}
+        {%- set_global total = total + item.amount -%}
+        {%- set_global total_all = total_all + item.amount -%}
+
+        {%- if item.status == "pending" -%}
+          {%- set_global pending = pending + item.amount -%}
+          {%- set_global pending_all = pending_all + item.amount -%}
+        {%- elif item.status == "complete" -%}
+          {%- set_global complete = complete + item.amount -%}
+          {%- set_global complete_all = complete_all + item.amount -%}
+        {%- endif -%}
+
+    {% endfor %}
+    <h3>Tranche {{ file_trimmed }} ({{ data.date | date(format="%b %Y") }}) &mdash; ${{ total }}</h3>
+
+    {{ table_macro::render(items=data.items, total=total, complete=complete, pending=pending) }}
+  </div>
+  {% endif %}
+{% endfor %}
+
+<h3>Total for {{ year }}</h3>
+<table class="status-table">
+  <thead>
+    <tr>
+      <th>Total</th>
+      <th>complete</th>
+      <th>Pending</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>${{ total_all }}</strong></td>
+      <td><strong>${{ complete_all }}</strong></td>
+      <td><strong>${{ pending_all }}</strong></td>
+    </tr>
+  </tbody>
+</table>

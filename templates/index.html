@@ -4,39 +4,56 @@
 <div class="intro">
   <h1 class="title name"><strong>FLOSS</strong><span>/fund</span></h1>
   <h2>$1 million a year for free and open source projects</h2>
-  <p>No <code>[]strings</code> attached</p>
+  <p><code>No []strings attached</code></p>
 </div>
 
-<div class="row">
-  <div class="col-6">
+<div>
     <p>
-      FLOSS/fund is dedicated to supporting critical, impactful, and valuable
+      Started in 2024 at <a href="https://zerodha.com/open-source">Zerodha</a>, FLOSS/fund is dedicated to supporting critical, impactful, and valuable
       Free/Libre and Open Source projects globally.
       We give up to $1 million per year to support developers and communities
       that create and maintain projects, big and small.
-    </p>
-    <p><a href="{{ get_url(path="@/blog/announcing-floss-fund.md") }}">Read the announcement</a></p>
-  </div>
 
-  <div class="col-6">
+      <a href="{{ get_url(path="@/blog/announcing-floss-fund.md") }}"><strong>Read the announcement</strong></a>.
+    </p>
+
     <p>
       Much of the foundation underlying the modern technology landscape and the internet itself is built on the fruits of labour of individuals and
       communities in the form of free and open source software. We aim to contribute our tiny bit to this
       enormous global effort of passion, innovation, and freedom.
     </p>
-    <p class="dim-small">
-      <strong>FLOSS</strong> &mdash;
-        Free/Libre and Open Source Software |
-        For the Love of Open Source Software |
-        The Floss flower, Ceiba speciosa, in the logo. Why not!
+    <p>
+      <strong>FLOSS:</strong>
+        Free/Libre and Open Source Software /
+        For the Love of Open Source Software /
+        The Floss flower (Ceiba speciosa) in the logo, because why not!
     </p>
-    <p class="dim-small partner">
-      Ecosystem partner<br />
-      <a href="https://fossunited.org"><img src="{{ get_url(path="/static/fossunited.svg", cachebust=true) }}" alt="FOSS United Foundation logo">
-      </a>
-  </div>
-</div>
+    <br />
 
-<p><a href="https://dir.floss.fund/submit" class="button">Apply now</a></p>
+    <div class="row">
+      <div class="col-6">
+        <p><a href="https://dir.floss.fund/submit" class="button">Apply now</a></p>
+      </div>
+      <div class="col-6 dim-small partner" style="text-align: right;">
+        Ecosystem partner<br />
+        <a href="https://fossunited.org"><img src="{{ get_url(path="/static/fossunited.svg", cachebust=true) }}" alt="FOSS United Foundation logo">
+        </a>
+      </div>
+    </div>
+
+    <hr />
+    <div class="updates">
+      <h3>Updates</h3>
+      {% set blog = get_section(path="blog/_index.md") %}
+      <ul>
+        {% for post in blog.pages | slice(end=10) %}
+        <li>
+          <a href="{{ post.permalink }}">{{ post.title }}</a>
+          <span class="date">{{ post.date | date(format="%B %d, %Y") }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+</div>
 
 {% endblock content %}
