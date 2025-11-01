@@ -40,13 +40,13 @@ slug = "faq"
   
   **Badge**
 
-  `<a href="https://floss.fund"><img src="/static/badge.svg" alt="FLOSS/fund badge" /></a>`
+  `<a href="https://floss.fund"><img src="https://floss.fund/static/badge.svg" alt="FLOSS/fund badge" /></a>`
 
   <a href="https://floss.fund"><img src="/static/badge.svg" alt="FLOSS/fund badge" /></a>
 
   **Badge-full**
 
-  `<a href="https://floss.fund"><img src="/static/badge-full.svg" alt="FLOSS/fund badge" /></a>`
+  `<a href="https://floss.fund"><img src="https://floss.fund/static/badge-full.svg" alt="FLOSS/fund badge" /></a>`
 
   <a href="https://floss.fund"><img src="/static/badge-full.svg" alt="FLOSS/fund badge" /></a>
 
