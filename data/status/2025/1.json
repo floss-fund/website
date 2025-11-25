@@ -29,7 +29,7 @@
             "name": "Network Time Protocol",
             "url": "https://dir.floss.fund/view/project/@www.nwtime.org/ntp",
             "amount": 60000,
-            "status": "pending"
+            "status": "complete"
         },
         {
             "name": "OpenSSL Library",
