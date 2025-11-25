@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title></title>
+      <link>https://floss.fund</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://floss.fund/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Sat, 18 Oct 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>The second tranche and anniversary reflection</title>
+          <pubDate>Sat, 18 Oct 2025 00:00:00 +0000</pubDate>
+          <author>knadh</author>
+          <link>https://floss.fund/blog/second-tranche-2025-anniversary/</link>
+          <guid>https://floss.fund/blog/second-tranche-2025-anniversary/</guid>
+          <description xml:base="https://floss.fund/blog/second-tranche-2025-anniversary/">&lt;p&gt;&lt;strong&gt;TLDR;&lt;&#x2F;strong&gt; FLOSS&#x2F;fund completes its first year and finishes allocating $1 million to FOSS projects globally.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;This week marks the first anniversary of FLOSS&#x2F;fund. We &lt;a href=&quot;https:&#x2F;&#x2F;floss.fund&#x2F;blog&#x2F;announcing-floss-fund&#x2F;&quot;&gt;launched it last year&lt;&#x2F;a&gt; out of &lt;a href=&quot;https:&#x2F;&#x2F;zerodha.com&#x2F;open-source&quot;&gt;Zerodha&lt;&#x2F;a&gt; as a big experiment to fund critical Free&#x2F;Libre Open Source projects globally, which in turn was the culmination of a series of ad-hoc funding attempts over the years. It is the first of its kind in India, and one of the few in the world. Our experience has far exceeded our expectations in many ways, while also disappointing us in a few unsurprising ones.&lt;&#x2F;p&gt;
+&lt;p&gt;But, before we get into all that, here&#x27;s the most important bit of the update, the second tranche.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;tranche-2-of-2025&quot;&gt;Tranche 2 of 2025&lt;&#x2F;h2&gt;
+&lt;p&gt;We are happy to announce the second and final tranche of 2025, totaling &lt;strong&gt;$675,000&lt;&#x2F;strong&gt;. Along with the $325,000 from the &lt;a href=&quot;https:&#x2F;&#x2F;floss.fund&#x2F;blog&#x2F;update-2025-may&#x2F;&quot;&gt;first tranche&lt;&#x2F;a&gt;, this brings the total to $1 million for the year. All projects and tranches can be &lt;a href=&quot;https:&#x2F;&#x2F;floss.fund&#x2F;projects&#x2F;&quot;&gt;tracked here&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;We will be reaching out to all recipients in the coming days to initiate the due processes and formalities.&lt;&#x2F;p&gt;
+
+&lt;div class=&quot;status-tranche&quot;&gt;
+
+  &lt;h3&gt;Tranche 2 (Oct 2025) &amp;mdash; $675000&lt;&#x2F;h3&gt;
+
+  
+&lt;table class=&quot;status-table&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Project&lt;&#x2F;th&gt;
+      &lt;th class=&quot;col-right&quot;&gt;Amount&lt;&#x2F;th&gt;
+      &lt;th class=&quot;col-right&quot;&gt;Status&lt;&#x2F;th&gt;
+    &lt;&#x2F;tr&gt;
+  &lt;&#x2F;thead&gt;
+  &lt;tbody&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;projects&amp;#x2F;@www.blender.org&quot; target=&quot;_blank&quot;&gt;Blender&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$25000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@crystal-lang.org&amp;#x2F;crystal-lang&quot; target=&quot;_blank&quot;&gt;Crystal&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$15000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@dokku.com&amp;#x2F;dokku&quot; target=&quot;_blank&quot;&gt;Dokku&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@dotenvx.com&amp;#x2F;dotenvx&quot; target=&quot;_blank&quot;&gt;dotenvx&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;projects&amp;#x2F;@ente.io&quot; target=&quot;_blank&quot;&gt;Ente&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$25000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-complete&quot;&gt;Complete&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;@f-droid.org&quot; target=&quot;_blank&quot;&gt;F-Droid&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$50000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@ffmpeg.org&amp;#x2F;ffmpeg&quot; target=&quot;_blank&quot;&gt;FFmpeg&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$100000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;projects&amp;#x2F;@www.freecodecamp.org&quot; target=&quot;_blank&quot;&gt;freeCodeCamp&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;@gleam.run&quot; target=&quot;_blank&quot;&gt;Gleam&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$15000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;@www.graphile.org&quot; target=&quot;_blank&quot;&gt;Graphile&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@github.com&amp;#x2F;hotosm&amp;#x2F;hotosm-tech-team&quot; target=&quot;_blank&quot;&gt;HOTOSM&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$50000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;projects&amp;#x2F;@ev.kde.org&amp;#x2F;.well-known&quot; target=&quot;_blank&quot;&gt;KDE e.V.&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$25000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;projects&amp;#x2F;@kiwix.org&quot; target=&quot;_blank&quot;&gt;Kiwix&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$15000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;projects&amp;#x2F;@lfortran.org&quot; target=&quot;_blank&quot;&gt;LFortran&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;projects&amp;#x2F;@matrix.org&quot; target=&quot;_blank&quot;&gt;Matrix&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$25000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;projects&amp;#x2F;@github.com&amp;#x2F;tarides&quot; target=&quot;_blank&quot;&gt;OCaml&amp;#x2F;Tarides&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-complete&quot;&gt;Complete&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@openrefine.org&amp;#x2F;openrefine&quot; target=&quot;_blank&quot;&gt;OpenRefine&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$25000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;funding&amp;#x2F;@www.openstreetmap.org&quot; target=&quot;_blank&quot;&gt;OpenStreetMap&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$30000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@github.com&amp;#x2F;pgmpy&amp;#x2F;pgmpy&quot; target=&quot;_blank&quot;&gt;pgmpy&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;funding&amp;#x2F;@pocketbase.io&quot; target=&quot;_blank&quot;&gt;PocketBase&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$30000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@postmarketos.org&amp;#x2F;postmarketos&quot; target=&quot;_blank&quot;&gt;postmarketOS&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$25000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;@quic-go.net&quot; target=&quot;_blank&quot;&gt;quic-go&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@github.com&amp;#x2F;celzero&amp;#x2F;rethink&quot; target=&quot;_blank&quot;&gt;Rethink DNS&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$25000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-complete&quot;&gt;Complete&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;projects&amp;#x2F;@sequoia-pgp.org&quot; target=&quot;_blank&quot;&gt;Sequoia PGP&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$25000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@tus.io&amp;#x2F;tus&quot; target=&quot;_blank&quot;&gt;tus&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;@vale.sh&quot; target=&quot;_blank&quot;&gt;vale&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@wiresharkfoundation.org&amp;#x2F;wireshark&quot; target=&quot;_blank&quot;&gt;Wireshark&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$25000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;projects&amp;#x2F;@github.com&amp;#x2F;yjs&quot; target=&quot;_blank&quot;&gt;Yjs&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;funding&amp;#x2F;@zen-browser.app&quot; target=&quot;_blank&quot;&gt;Zen Browser&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@ziglang.org&amp;#x2F;zig&quot; target=&quot;_blank&quot;&gt;Zig&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$25000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td class=&quot;col-right&quot;&gt;&lt;strong&gt;Complete&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;
+      &lt;td class=&quot;col-right&quot; colspan=&quot;1&quot;&gt;&lt;strong&gt;$60000&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;
+    &lt;&#x2F;tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;col-right&quot;&gt;&lt;strong&gt;Pending&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;
+      &lt;td class=&quot;col-right&quot; colspan=&quot;1&quot;&gt;&lt;strong&gt;$615000&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;
+    &lt;&#x2F;tr&gt;
+  &lt;&#x2F;tbody&gt;
+&lt;&#x2F;table&gt;
+
+&lt;&#x2F;div&gt;
+
+&lt;p&gt;As is evident, there is significant diversity in these projects, which range from developer tools and consumer apps, programming languages and libraries to critical FOSS infrastructure to humanitarian and social-impact work. This diversity, although great, has nuances and intricacies which makes the running of a non-thematic, open-ended fund for FOSS projects tricky.&lt;&#x2F;p&gt;
+&lt;p&gt;I would like to think that &quot;congratulating&quot; the recipients here is inappropriate, as for them, this is neither a victory, nor an achievement. FOSS projects that the world depends on ought to receive financial backing as the norm. At the very least, a significant amount of collective societal gratitude and recognition is owed to FOSS maintainers and communities. &lt;strong&gt;For-profit orgs that benefit from FOSS though, give more money than gratitude, will ya!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;As for us, we are very happy to be able to play a small role in the continued development and maintenance of critical FOSS projects. Personally, I&#x27;m extremely chuffed, excited, and moved by the fact that we are able to do this.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h3 id=&quot;mutual-assured-sustenance-mas&quot;&gt;Mutual Assured Sustenance (MAS)&lt;&#x2F;h3&gt;
+&lt;p&gt;Speaking of critical FOSS projects, much has changed in the last few months geopolitically. Among many other things, conversations around &lt;em&gt;tech sovereignty&lt;&#x2F;em&gt; have been thrust to the forefront—something that is practically impossible without FOSS. It feels like, for the first ever time, funding and sustaining FOSS projects globally is becoming a sovereign priority at the nation-state level. Let us hope (and work towards) that not backfiring!&lt;&#x2F;p&gt;
+&lt;p&gt;Unlike international trade relations—which can be abruptly halted through legal action—FOSS collaboration is abstract and driven by entirely different motivations and incentives. A significant majority of FOSS is produced and maintained by people who do it because they &lt;em&gt;want&lt;&#x2F;em&gt; to, isolated from political and state-level priorities and incentives. And yet, it is their creation that underpins the global digital infrastructure with far-reaching consequences. I would even go so far as to think that it must be far easier for a country to procure critical goods via alternate supply chains than to create their own robust Postgres, Blender, or Firefox from scratch. It is undoubtedly simpler for a reasonably well-off country to set up mega-structures like skyscrapers, than to create, sustain, and scale their own Linux kernel alternative. I mean, what languages, compilers, and libraries would be used in such an endeavour? What about interoperability, compatibility, and adoption? Actually, forget all that, what about entire ecosystems and universes that would need to exist to enable any of that (like Carl Sagan once famously asked).&lt;&#x2F;p&gt;
+&lt;p&gt;Actually, no amount of material resources can enable governments to develop, nurture, and sustain complex, high-quality FOSS projects themselves in the way a community of passionate maintainers can. The incentives, DNA, and motivations simply do not align. Realistically, it is not possible for the idea of tech sovereignty to be rooted in &quot;owning&quot; and creating all technology, especially software, from scratch. There is no way but to participate in the collaborative global FOSS ecosystem.&lt;&#x2F;p&gt;
+&lt;p&gt;That is, &lt;em&gt;Mutual Assured Sustenance&lt;&#x2F;em&gt; (MAS)—the very opposite of &lt;em&gt;Mutual Assured Destruction&lt;&#x2F;em&gt; (&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Mutual_assured_destruction&quot;&gt;MAD&lt;&#x2F;a&gt;). While MAD is a strategy of rational deterrence for global &quot;stability&quot;, MAS is a system that enables global cooperation, where checks and balances naturally emerge from the fundamental tenets of FOSS. It results in collaboration, mutual interest, mutual benefit, and mutually reinforcing dependencies that are pretty damn hard to break. Without it, no country can have a meaningful technology or digital ecosystem.&lt;&#x2F;p&gt;
+&lt;p&gt;The FOSS ecosystem, despite its flaws and nuances, is one of those rare instances where technology, social movements, reciprocity, idealism, ideologies, passion, creativity, communities, individuals, corporations, governments, and industries end up interacting (and sometimes even directly collaborating) out of mutual interest, even when their motives differ. From an academic perspective, it would be interesting to examine this through the sociological lens of Star and Griesemer&#x27;s &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Boundary_object&quot;&gt;&lt;em&gt;boundary object&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;—a shared construct around which diverse groups and actors interact and collaborate with differing motivations, deriving varying degrees of utility and impact.&lt;&#x2F;p&gt;
+&lt;p&gt;FLOSS&#x2F;fund is Indian, but its purview is global. This is a MAS construct.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyway, back to the matter at hand.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;looking-back&quot;&gt;Looking back&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;what-has-been-great&quot;&gt;What has been great&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Some of the biggest and most important FOSS projects in the world have applied to the fund. To name a few, Blender, OpenSSL, OSM, FFmpeg, Krita, and Python Software Foundation among many others.&lt;&#x2F;li&gt;
+&lt;li&gt;There is great diversity in projects. We have everything from developer tools, programming languages and libraries, critical FOSS infrastructure, to humanitarian and social-impact projects.&lt;&#x2F;li&gt;
+&lt;li&gt;There is great diversity in entities—individuals, communities, non-profits, for-profits.&lt;&#x2F;li&gt;
+&lt;li&gt;Applications have come via word of mouth and volunteer outreach from within FOSS communities, despite no campaigns, advertisements, or even social media presence.&lt;&#x2F;li&gt;
+&lt;li&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;fundingjson.org&quot;&gt;funding.json&lt;&#x2F;a&gt; experiment has done really well.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;what-has-not-been-great&quot;&gt;What has not been great&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;After announcing the fund in October 2024, there have been two tranches. The first one in the 7th month (May 2025), and the second in the 12th (October 2025). We were hoping to do quarterly tranches, but the applications have been too sporadic to have any sort of regular cadence. This is okay and should improve over time.&lt;&#x2F;li&gt;
+&lt;li&gt;Of the $325,000 announced in May 2025, we have only been able to disburse $195,000 so far, owing to logistical, process, and paperwork delays. That means, with the second tranche announced in this post, within 12 months, we have only disbursed $195,000 out of $1 million. This will carry well into next year, creating significant operational overhead.&lt;&#x2F;li&gt;
+&lt;li&gt;For every recipient, from the time of announcement to disbursal of funds, it has taken anywhere between four to sixteen weeks. This has almost entirely to do with cross-jurisdictional paperwork (tax, ID, incorporation, and other legal formalities).&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;looking-ahead&quot;&gt;Looking ahead&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;github-sponsors&quot;&gt;GitHub Sponsors&lt;&#x2F;h3&gt;
+&lt;p&gt;A number of recipients in the first tranche have opted to wait and receive payments via the GitHub Sponsors platform rather than go through the paperwork hassle to receive funds directly, which is understandable. I suspect several recipients in the second tranche will also prefer this route.&lt;&#x2F;p&gt;
+&lt;p&gt;We have been working on establishing a formal partnership with &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;sponsors&quot;&gt;GitHub Sponsors&lt;&#x2F;a&gt; to enable projects to choose it as a channel for getting paid. This has been a very difficult endeavor, thanks to complex cross-border financial regulations, and of course, the peculiarities of the Indian system. The teams at GitHub Sponsors and on our side have been patiently and diligently working on this for almost a year—a mammoth project involving lawyers, bankers, finance folks, auditors, and of course, FOSS hackers. The single biggest mail thread in my inbox right now is this mail chain. However, we are finally at the stage of seeking regulatory approval and are hopeful it will come through, making disbursals exponentially easier for recipients who prefer GitHub. A special thank you to the GitHub team for the patience!&lt;&#x2F;p&gt;
+&lt;p&gt;Also, an important goal here is to establish clear regulatory precedent and create a template for other Indian organisations to partner with platforms like GitHub to fund FOSS projects easily. Without this, it is outright infeasible for organisations interested in funding FOSS to navigate the Kafkaesque maze of laws and regulations.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;funding-json-manifest&quot;&gt;funding.json manifest&lt;&#x2F;h3&gt;
+&lt;p&gt;How the &lt;a href=&quot;https:&#x2F;&#x2F;fundingjson.org&quot;&gt;funding.json&lt;&#x2F;a&gt; open schema has fared has been particularly exciting to me. The issues it aims to address, and the motivations and experiences that culminated in its creation, have been problems I&#x27;ve mulled over for a long time. They are described in detail in the &lt;a href=&quot;https:&#x2F;&#x2F;floss.fund&#x2F;blog&#x2F;announcing-floss-fund&#x2F;#more-structure-funding-json&quot;&gt;original announcement&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;To apply to FLOSS&#x2F;fund, an entity must publish a publicly accessible funding.json on their website. So, its presence in projects that applied to FLOSS&#x2F;fund cannot be construed as adoption or be attributed to schema&#x27;s merits directly. However, there are other interesting indicators:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;There has been a positive, natural acceptance of funding.json as the means of applying to FLOSS&#x2F;fund. We&#x27;ve received very few (angry) e-mails asking for a web form, and that&#x27;s a pretty big achievement in the FOSS world &lt;code&gt;¯\_(ツ)_&#x2F;¯&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;Entities both large and small have thoughtfully presented their broad financial requirements aimed at the general public in their funding.json, rather than just publishing namesake entries specifically aimed at FLOSS&#x2F;fund. This ranges from $5 monthly individual donations to $500K corporate payments to solicitation of funds via support contracts. This is precisely the goal of the manifest. We do not want FLOSS or the fund to have any form of exclusivity; instead, we want to encourage projects to publicly share their financial requirements with the world. Two examples: &lt;a href=&quot;https:&#x2F;&#x2F;www.openstreetmap.org&#x2F;funding.json&quot;&gt;openstreetmap.org&#x2F;funding.json&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;ziglang.org&#x2F;funding.json&quot;&gt;ziglang.org&#x2F;funding.json&lt;&#x2F;a&gt;.&lt;&#x2F;li&gt;
+&lt;li&gt;In reality, there is no &quot;applying&quot; to FLOSS&#x2F;fund. A project publishes its funding requirements as a public, machine-readable manifest and adds it to the FLOSS&#x2F;fund &lt;a href=&quot;https:&#x2F;&#x2F;dir.floss.fund&quot;&gt;open directory&lt;&#x2F;a&gt;. The fund reviews public listings and makes its selections periodically. There is no other &quot;application&quot; process or status tracking. Anyone anywhere, and not just FLOSS&#x2F;fund, can browse the open directory and pick projects to support. I&#x27;m positive that more tooling around these manifests will emerge, like this &lt;a href=&quot;https:&#x2F;&#x2F;floss-fund-live-status.streamlit.app&#x2F;&quot;&gt;live analysis&lt;&#x2F;a&gt; of the open directory.&lt;&#x2F;li&gt;
+&lt;li&gt;The manifest makes FOSS funding, grant applications, and financial solicitation portable. Write and publish once, apply anywhere. Unlike applications for awards or one-off events, funding requirements of FOSS projects are recurring, long-standing, and inherently public. The idea of an open JSON manifest captures these dynamics. Imagine a project applying to &lt;a href=&quot;https:&#x2F;&#x2F;nlnet.nl&quot;&gt;NLNet&lt;&#x2F;a&gt;, the &lt;a href=&quot;https:&#x2F;&#x2F;www.sovereign.tech&quot;&gt;German Sovereign Tech Fund&lt;&#x2F;a&gt;, FLOSS&#x2F;fund, and several others without having to craft entirely new grant applications. The EU already has &lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Europass&quot;&gt;Europass&lt;&#x2F;a&gt; for portable, machine-readable CVs for jobseekers. funding.json is basically that, but for FOSS projects. Informal conversations I have had about funding.json&#x27;s adoption in other contexts has been good validation.&lt;&#x2F;li&gt;
+&lt;li&gt;GitHub is evaluating adding support for recognising and rendering funding.json committed in repositories. Fingers crossed!&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;idea-indian-sovereign-foss-fund&quot;&gt;Idea: Indian Sovereign FOSS Fund&lt;&#x2F;h3&gt;
+&lt;p&gt;Unless one was hibernating in permafrost, one could not have missed the serious geopolitical changes the world has undergone in recent months. Tech sovereignty has become a critical national agenda, and without FOSS, such a vision is practically impossible.&lt;&#x2F;p&gt;
+&lt;p&gt;The Government of India&#x27;s IndiaAI Mission is spending taxpayer money to support the creation of &lt;a href=&quot;https:&#x2F;&#x2F;economictimes.indiatimes.com&#x2F;tech&#x2F;artificial-intelligence&#x2F;sarvam-ai-to-open-source-ai-models-it-is-training-under-indiaai-mission&#x2F;articleshow&#x2F;122524232.cms&quot;&gt;open-source LLMs&lt;&#x2F;a&gt;. It has also been a strong advocate of Digital Public Goods (&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Digital_public_goods&quot;&gt;DPG&lt;&#x2F;a&gt;) and Digital Public Infrastructure (&lt;a href=&quot;https:&#x2F;&#x2F;en.wikipedia.org&#x2F;wiki&#x2F;Digital_public_infrastructure&quot;&gt;DPI&lt;&#x2F;a&gt;) on the global stage, both of which are deeply intertwined with FOSS. Tangentially, while DPI and DPG are conceptually nice, the way these terms have been widely diluted and &lt;em&gt;openwashed&lt;&#x2F;em&gt; is extremely frustrating. In reality, FOSS is the true engine behind any meaningful manifestation of DPI and DPG. The Linux kernel, Wikipedia, and OpenStreetMap are perhaps the best examples for the ultimate global public goods that fundamentally reshaped the world through true openness and collaboration, way before these terms were even coined.&lt;&#x2F;p&gt;
+&lt;p&gt;Coming back, the Government of India is strategically pro-FOSS. Everything from large government systems to much of the new-age tech industry is built on FOSS. Given the focus on tech sovereignty, now feels like the most opportune moment to establish a sovereign FOSS fund—a move of direct strategic national importance. It would be a win for FOSS ecosystem, the state, the government, and the industry, both of which are massive beneficiaries of FOSS. Apart from the German Sovereign Tech Fund, NLNet (which receives funds from EU and governments), and &lt;a href=&quot;https:&#x2F;&#x2F;www.nsf.gov&#x2F;funding&#x2F;initiatives&#x2F;pathways-enable-open-source-ecosystems&quot;&gt;NSF&lt;&#x2F;a&gt;, few countries have done this. A well thought out setup where the fund is administered by the FOSS community in collaboration with the government, could position India as one of the global pioneers of MAS in the modern technology landscape.&lt;&#x2F;p&gt;
+&lt;p&gt;We, as members of both the Indian tech industry and the FOSS community, intend to urge the Government of India to explore the idea and advocate for its adoption.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;lessons&quot;&gt;Lessons&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;non-thematic-is-difficult&quot;&gt;Non-thematic is difficult&lt;&#x2F;h3&gt;
+&lt;p&gt;FLOSS&#x2F;fund is not a thematic fund, which makes selecting projects hard. Each project has to be viewed in its own context rather than compared to others. For instance, how does one compare a decades-old, widely used project, with a new experimental one that holds great promise, but uncertain success? Similarly, how does one weigh a developer tool or a library against a humanitarian project that directly impacts lives? They must all be viewed through their own lenses, and that&#x27;s pretty damn hard under the umbrella of a fund. Some projects are critical technical infrastructure; others are critical societal infrastructure.&lt;&#x2F;p&gt;
+&lt;p&gt;These are a few of the (very subjective) questions we&#x27;ve framed for evaluating projects. It seems to be a fair reflection of FLOSS&#x2F;fund&#x27;s worldview:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Is the project critical technical FOSS infrastructure or a foundational building block?&lt;&#x2F;li&gt;
+&lt;li&gt;Is the project widely used? Does it have alternatives? If yes, how does it compare to them?&lt;&#x2F;li&gt;
+&lt;li&gt;Is the project one of many in a crowded space? What makes it special?&lt;&#x2F;li&gt;
+&lt;li&gt;Is it the only FOSS effort of its kind? The only FOSS alternative to a proprietary system?&lt;&#x2F;li&gt;
+&lt;li&gt;Is it a dependency that cannot be swapped out easily? Is its continued existence critical?&lt;&#x2F;li&gt;
+&lt;li&gt;It is a niche project, but within that niche, how important is it? And how important is that niche overall?&lt;&#x2F;li&gt;
+&lt;li&gt;It is a very domain-specific project like scientific computing. How important is it within the domain?&lt;&#x2F;li&gt;
+&lt;li&gt;Is the project an institutional, community, or individual effort?&lt;&#x2F;li&gt;
+&lt;li&gt;Is it R&amp;amp;D that may become important to the FOSS ecosystem tomorrow?&lt;&#x2F;li&gt;
+&lt;li&gt;If it&#x27;s a consumer application, what is the demographic of its userbase? Individuals, just businesses, or a wide range of diverse users?&lt;&#x2F;li&gt;
+&lt;li&gt;Beyond being standalone technology, does it serve as a means for social impact? How significant is that impact?&lt;&#x2F;li&gt;
+&lt;li&gt;Does the project already receive funding? Does it have significant industry backing? Does it have a surplus or a deficit? If it is a deficit, how bad is it?&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Answers to these questions cannot be found in a silo and requires perspective and broad understanding, sometimes beyond FOSS. That&#x27;s where community comes in. Needless to say, at this point, it seems logical to create categories at least, if not themes, for better organisation and evaluation.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;community-participation-is-crucial&quot;&gt;Community participation is crucial&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;fossunited.org&quot;&gt;FOSS United Foundation&lt;&#x2F;a&gt; has been an invaluable and active ecosystem partner. Volunteers from the FOSS United community have extended support not just in outreach and communications, but in evaluation and execution. Through this diverse network, we&#x27;ve spoken to users, contributors, participants of various projects, experts from various domains, to help with evaluation and decision-making. Even with just ~300 applications in the first year, it&#x27;s clear that without community support, it&#x27;s going to be hard to administer an initiative like FLOSS&#x2F;fund—imagine a sovereign fund!&lt;&#x2F;p&gt;
+&lt;p&gt;While it is common sense that the evaluation of diverse projects requires inputs from a diverse community with experience and expertise, it is still a useful, universal insight for anyone setting up similar initiatives. There&#x27;s a formal proposal under consideration at FOSS United Foundation to create a structured, community-voting–based selection process for future tranches.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;lack-of-fiscal-clarity-in-projects&quot;&gt;Lack of fiscal clarity in projects&lt;&#x2F;h3&gt;
+&lt;p&gt;This is a pretty interesting one. A number of basic assumptions that we think are common knowledge, in reality, are not. Here are a few scenarios we&#x27;ve encountered, which can only be addressed with clear governance structures around projects. I think these are also pretty valuable insights for similar initiatives being set up elsewhere.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Imagine a project maintained by, say, three developers, who put in varying levels of effort. Which individual receives the funds? How do the funds get split? Can the disbursement be split into three different sub-entities? It is infeasible for an entity like FLOSS&#x2F;fund to handle these matters. Internal affairs must be sorted out at the recipient&#x27;s end before soliciting funding.&lt;&#x2F;li&gt;
+&lt;li&gt;Imagine a foundation that oversees the technical governance and administration of a project where contributions come from a diverse community. A few contributors are significant and recurring, but not official members of the foundation. The foundation has no financial requirements and does not want to act as a fiscal host that raises and distributes funds to contributors. There is no explicit charter that permits contributors to solicit funds on behalf of the project (though informally the foundation may be fine with it). Can the contributors now solicit funds on behalf of the project? How does a funder like FLOSS&#x2F;fund verify this? FOSS organisations must have clear guidelines and governance mechanisms addressing such ambiguities at their end, enabling contributors to solicit funding.&lt;&#x2F;li&gt;
+&lt;li&gt;Similarly, an organisation that manages the development and maintenance of a project, raising funds and paying official maintainers, does not have a clearly defined framework for community contributions. If an unofficial contributor is making significant code contributions, can they solicit funds on the project&#x27;s behalf? How can that be reconciled with the project itself officially raising funds? This also requires clear guidelines.&lt;&#x2F;li&gt;
+&lt;li&gt;For-profit entities maintaining FOSS projects face another question: should they book business income through consulting and service contracts, or explore other means? The laws and regulatory frameworks vary across jurisdictions.&lt;&#x2F;li&gt;
+&lt;li&gt;There is, unsurprisingly, significant US-centricity in the understanding of cross-border payments and transactions. While it&#x27;s impossible to fully grasp the insane complexities of global financial frameworks and tax codes, we were surprised by how many organisations and fiscal hosts expressed surprise at this basic fact. As the FOSS funding ecosystem expands worldwide (and it must), a better understanding of these nuances will help projects achieve better global placement. FOSS is global. FOSS funding must also be global.&lt;&#x2F;li&gt;
+&lt;li&gt;In the same vein, complex tax treaties between different countries are a reality. There may be tax deducted at source, which can be claimed by filing tax returns in the recipient&#x27;s country. Recipients, especially organisations, must not be surprised and must be prepared to handle such scenarios.&lt;&#x2F;li&gt;
+&lt;li&gt;It takes up to three months for an entity in the US to receive the tax-residency letter from the IRS after an online application (!). FOSS projects and organisations in the US raising funds globally ought to keep this document handy.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;The biggest lesson of all is the continued reaffirmation that many super-big, super-critical projects that we assume are doing okay, are so under-funded and under-resourced, it is scary. The reality is that the criticality and extent of usage of a FOSS project often has no positive correlation with its health or sustainability. &lt;a href=&quot;https:&#x2F;&#x2F;xkcd.com&#x2F;2347&#x2F;&quot;&gt;xkcd #2347&lt;&#x2F;a&gt; depicts this beautifully (and scientifically).&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;h2 id=&quot;what-s-next&quot;&gt;What&#x27;s next?&lt;&#x2F;h2&gt;
+&lt;p&gt;Obviously (and most importantly), continue hacking and contributing to FOSS and the global commons. As for FLOSS&#x2F;fund for its year two:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Allocate a fresh $1 million for 2026 and look for projects to support in the &lt;a href=&quot;https:&#x2F;&#x2F;dir.floss.fund&quot;&gt;open directory&lt;&#x2F;a&gt; listings. &quot;Applications&quot; are perpetual, so all listings in the open directory are re-evaluated periodically.&lt;&#x2F;li&gt;
+&lt;li&gt;Create a community-based project evaluation and selection mechanism.&lt;&#x2F;li&gt;
+&lt;li&gt;Push harder to reduce the logistical and process delays, and obtain regulatory precedent for making processes smoother.&lt;&#x2F;li&gt;
+&lt;li&gt;Set up tech tooling to make the backend operations easier—a support ticketing system and a document collection CRM.&lt;&#x2F;li&gt;
+&lt;li&gt;Explore partnerships with global platforms (like GitHub) that make disbursements simpler.&lt;&#x2F;li&gt;
+&lt;li&gt;Explore corporate outreach for encouraging companies to set up similar funds.&lt;&#x2F;li&gt;
+&lt;li&gt;Advocate for the setting up of a sovereign FOSS fund in India.&lt;&#x2F;li&gt;
+&lt;li&gt;Increase FOSS community outreach to encourage projects to publish funding.json manifests so as to not just add them to FLOSS&#x2F;fund&#x27;s evaluation pool, but to publicise their financial requirements in general.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;If you&#x27;re a FOSS project, do &quot;&lt;a href=&quot;https:&#x2F;&#x2F;dir.floss.fund&#x2F;submit&quot;&gt;apply&lt;&#x2F;a&gt;&quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;So long!&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;em&gt;PS: 100% of the em dashes in this post are human-generated&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>FLOSS&#x2F;fund first tranche: $325k to 9 projects</title>
+          <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
+          <author>rhnvrm</author>
+          <link>https://floss.fund/blog/update-2025-may/</link>
+          <guid>https://floss.fund/blog/update-2025-may/</guid>
+          <description xml:base="https://floss.fund/blog/update-2025-may/">&lt;p&gt;We are happy to announce our first tranche—9 open source projects and organisations receiving a total of &lt;strong&gt;$325,000&lt;&#x2F;strong&gt; for the continued and sustainable development and maintenance of critical software.&lt;&#x2F;p&gt;
+&lt;p&gt;Since launching FLOSS&#x2F;fund in October 2024, we&#x27;ve received applications from diverse projects. Our experimental approach of soliciting applications through the open, publicly indexable &lt;a href=&quot;https:&#x2F;&#x2F;fundingjson.org&quot;&gt;&lt;code&gt;funding.json&lt;&#x2F;code&gt;&lt;&#x2F;a&gt; manifest, has not only helped our overall processes significantly, but has encouraged many projects to start structuring and publicising their FOSS funding needs.&lt;&#x2F;p&gt;
+
+&lt;div class=&quot;status-tranche&quot;&gt;
+
+  &lt;h3&gt;Tranche 1 (May 2025) &amp;mdash; $325000&lt;&#x2F;h3&gt;
+
+  
+&lt;table class=&quot;status-table&quot;&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Project&lt;&#x2F;th&gt;
+      &lt;th class=&quot;col-right&quot;&gt;Amount&lt;&#x2F;th&gt;
+      &lt;th class=&quot;col-right&quot;&gt;Status&lt;&#x2F;th&gt;
+    &lt;&#x2F;tr&gt;
+  &lt;&#x2F;thead&gt;
+  &lt;tbody&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@imagemagick.org&amp;#x2F;imagemagick&quot; target=&quot;_blank&quot;&gt;ImageMagick&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$50000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@krita.org&amp;#x2F;.well-known&amp;#x2F;org-kde-krita&quot; target=&quot;_blank&quot;&gt;Krita&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$50000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-complete&quot;&gt;Complete&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@libretranslate.com&amp;#x2F;libretranslate&quot; target=&quot;_blank&quot;&gt;LibreTranslate&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@libjpeg-turbo.org&amp;#x2F;floss.fund&amp;#x2F;libjpeg-turbo&quot; target=&quot;_blank&quot;&gt;libjpeg-turbo&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$25000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-complete&quot;&gt;Complete&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@www.nwtime.org&amp;#x2F;ntp&quot; target=&quot;_blank&quot;&gt;Network Time Protocol&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$60000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-complete&quot;&gt;Complete&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@github.com&amp;#x2F;openssl&amp;#x2F;openssllibrary&quot; target=&quot;_blank&quot;&gt;OpenSSL Library&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$100000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-complete&quot;&gt;Complete&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@weblate.org&amp;#x2F;weblate&quot; target=&quot;_blank&quot;&gt;Weblate&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-complete&quot;&gt;Complete&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@ogilvie.pl&amp;#x2F;x64dbg&quot; target=&quot;_blank&quot;&gt;x64dbg&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-complete&quot;&gt;Complete&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+      &lt;tr&gt;
+        &lt;td width=&quot;65%&quot;&gt;&lt;a href=&quot;https:&amp;#x2F;&amp;#x2F;dir.floss.fund&amp;#x2F;view&amp;#x2F;project&amp;#x2F;@tukaani.org&amp;#x2F;xz-utils&quot; target=&quot;_blank&quot;&gt;XZ tools&lt;&#x2F;a&gt;&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;$10000&lt;&#x2F;td&gt;
+        &lt;td class=&quot;col-right&quot;&gt;&lt;span class=&quot;status status-pending&quot;&gt;Pending&lt;&#x2F;span&gt;&lt;&#x2F;td&gt;
+      &lt;&#x2F;tr&gt;
+    
+    &lt;tr&gt;
+      &lt;td class=&quot;col-right&quot;&gt;&lt;strong&gt;Complete&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;
+      &lt;td class=&quot;col-right&quot; colspan=&quot;1&quot;&gt;&lt;strong&gt;$255000&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;
+    &lt;&#x2F;tr&gt;
+    &lt;tr&gt;
+      &lt;td class=&quot;col-right&quot;&gt;&lt;strong&gt;Pending&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;
+      &lt;td class=&quot;col-right&quot; colspan=&quot;1&quot;&gt;&lt;strong&gt;$70000&lt;&#x2F;strong&gt;&lt;&#x2F;td&gt;
+    &lt;&#x2F;tr&gt;
+  &lt;&#x2F;tbody&gt;
+&lt;&#x2F;table&gt;
+
+&lt;&#x2F;div&gt;
+
+&lt;p&gt;The necessary logistical and legal paperwork for disbursal are at different stages across projects. In the coming months, we hope to streamline our processes to bring down the disbursal time significantly. We will update this post as the status changes, in addition to publishing a consolidated annual report.&lt;&#x2F;p&gt;
+&lt;p&gt;We are in talks with GitHub to build a close integration for quick fund disbursals via GitHub Sponsors as a majority of applications prefer GitHub as the avenue for receiving payments.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;apply-now&quot;&gt;Apply now&lt;&#x2F;h2&gt;
+&lt;p&gt;Are you a FOSS project? You can &lt;a href=&quot;https:&#x2F;&#x2F;dir.floss.fund&#x2F;submit&quot;&gt;apply for funding&lt;&#x2F;a&gt; any time. If you are unfamiliar with FLOSS&#x2F;fund, please see the &lt;a href=&quot;https:&#x2F;&#x2F;floss.fund&#x2F;blog&#x2F;announcing-floss-fund&#x2F;&quot;&gt;announcement&lt;&#x2F;a&gt; post.&lt;&#x2F;p&gt;
+&lt;p&gt;We hope our structured approach encourages other organisations to establish similar funding programs for the FOSS ecosystem.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;&lt;em&gt;Want to learn more about FLOSS&#x2F;fund or apply for funding? Visit &lt;a href=&quot;https:&#x2F;&#x2F;floss.fund&quot;&gt;floss.fund&lt;&#x2F;a&gt; or check out our &lt;a href=&quot;https:&#x2F;&#x2F;dir.floss.fund&quot;&gt;open directory&lt;&#x2F;a&gt; to explore all submitted projects.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Progress update</title>
+          <pubDate>Mon, 27 Jan 2025 00:00:00 +0000</pubDate>
+          <author>rhnvrm</author>
+          <link>https://floss.fund/blog/progress-update/</link>
+          <guid>https://floss.fund/blog/progress-update/</guid>
+          <description xml:base="https://floss.fund/blog/progress-update/">&lt;p&gt;It&#x27;s been a few months since we &lt;a href=&quot;&#x2F;blog&#x2F;announcing-floss-fund&quot;&gt;announced FLOSS&#x2F;fund&lt;&#x2F;a&gt;, our $1M annual funding initiative for Free and Open Source Software projects. Today, we&#x27;d like to share a brief update on our progress.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;review-process&quot;&gt;Review process&lt;&#x2F;h3&gt;
+&lt;p&gt;Our team has begun reviewing applications, and we&#x27;re encouraged by the quality and diversity of submissions. We&#x27;ve received applications from various interesting projects, including developer tools, infrastructure libraries, and community-driven initiatives, each with well-documented funding.json manifests outlining their requirements. Check out the projects on the &lt;a href=&quot;https:&#x2F;&#x2F;dir.floss.fund&quot;&gt;open directory&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;disbursal-process&quot;&gt;Disbursal process&lt;&#x2F;h3&gt;
+&lt;p&gt;In addition to direct disbursals, we are in discussions with GitHub and Open Collective. Many FLOSS projects already use these platforms for receiving contributions, and integrating with their existing payment infrastructure could significantly reduce the operational overhead for both maintainers and our team.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;timeline&quot;&gt;Timeline&lt;&#x2F;h3&gt;
+&lt;p&gt;We aim to complete the review of our first batch of applications and begin disbursing funds by April 2025. This timeline allows us to thoroughly evaluate each submission while setting up the necessary infrastructure for sustainable, long-term support.&lt;&#x2F;p&gt;
+&lt;p&gt;For those interested in applying, submissions remain open at &lt;a href=&quot;https:&#x2F;&#x2F;dir.floss.fund&#x2F;submit&quot;&gt;dir.floss.fund&#x2F;submit&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;We will share more detailed insights about the funding process and selected projects in our next update.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Joining the Open Source Pledge</title>
+          <pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate>
+          <author>rhnvrm</author>
+          <link>https://floss.fund/blog/open-source-pledge-2024/</link>
+          <guid>https://floss.fund/blog/open-source-pledge-2024/</guid>
+          <description xml:base="https://floss.fund/blog/open-source-pledge-2024/">&lt;p&gt;At &lt;a href=&quot;https:&#x2F;&#x2F;zerodha.com&#x2F;&quot;&gt;Zerodha&lt;&#x2F;a&gt;, we have always been passionate about contributing to a sustainable ecosystem for Free (libre) and Open Source Software (FOSS). As one of India&#x27;s largest stock brokers, our journey has been deeply intertwined with FOSS, which has been instrumental in our growth. We&#x27;ve relied on FOSS technologies to build and scale our products, business, and services. For a team of hobbyist developers, like &lt;a href=&quot;http:&#x2F;&#x2F;zerodha.tech&quot;&gt;ours&lt;&#x2F;a&gt;, this alignment with FOSS is a reflection of our core values.&lt;&#x2F;p&gt;
+&lt;p&gt;The &lt;a href=&quot;https:&#x2F;&#x2F;opensourcepledge.com&quot;&gt;Open Source Pledge&lt;&#x2F;a&gt; is an initiative that encourages companies to financially support the open source projects they depend on. By committing to this pledge, organizations can ensure the sustainability and growth of the open source ecosystem. The pledge aims to encourage contributions of at least $2,000 per full-time employee annually.&lt;&#x2F;p&gt;
+&lt;p&gt;We are excited to announce that we are officially joining the pledge. This marks the beginning of an annual tradition where we will share a detailed report of our financial contributions. For now, we are sharing our pre-FLOSS&#x2F;fund launch contributions as part of our pledge commitment. The first &lt;a href=&quot;https:&#x2F;&#x2F;floss.fund&quot;&gt;FLOSS&#x2F;fund&lt;&#x2F;a&gt; report will be published at the end of the next year.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;past-12-months&quot;&gt;Past 12 months&lt;&#x2F;h3&gt;
+&lt;p&gt;This year, we have contributed a total of $239,600, averaging around $7,260 per developer. We have made direct contributions totaling $59,600 to projects such as &lt;a href=&quot;https:&#x2F;&#x2F;typst.app&#x2F;&quot;&gt;Typst&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;duckdb.org&#x2F;&quot;&gt;DuckDB&lt;&#x2F;a&gt;, &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;birdayz&#x2F;kaf&quot;&gt;Kaf&lt;&#x2F;a&gt;, and &lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;twmb&#x2F;franz-go&quot;&gt;franz-go&lt;&#x2F;a&gt;. Additionally, we have contributed approximately $180,000 to foundations that support the Free and Open Source movement, including the &lt;a href=&quot;https:&#x2F;&#x2F;fossunited.org&#x2F;&quot;&gt;FOSS United Foundation&lt;&#x2F;a&gt; and &lt;a href=&quot;https:&#x2F;&#x2F;oasishq.org&#x2F;&quot;&gt;OASIS&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Contribution&lt;&#x2F;th&gt;&lt;th&gt;Amount&lt;&#x2F;th&gt;&lt;&#x2F;tr&gt;&lt;&#x2F;thead&gt;&lt;tbody&gt;
+&lt;tr&gt;&lt;td&gt;Direct Contribution to Typst&lt;&#x2F;td&gt;&lt;td&gt;$27,100&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Direct Contribution to DuckDB&lt;&#x2F;td&gt;&lt;td&gt;$26,500&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Direct Contribution to franz-go&lt;&#x2F;td&gt;&lt;td&gt;$5,000&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Direct Contribution to Kaf&lt;&#x2F;td&gt;&lt;td&gt;$1,000&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;tr&gt;&lt;td&gt;Contributions to Foundations&lt;&#x2F;td&gt;&lt;td&gt;$180,000&lt;&#x2F;td&gt;&lt;&#x2F;tr&gt;
+&lt;&#x2F;tbody&gt;&lt;&#x2F;table&gt;
+&lt;h4 id=&quot;contributions-over-the-past-years&quot;&gt;Contributions over the past years&lt;&#x2F;h4&gt;
+&lt;p&gt;At Zerodha, our commitment to the open source community extends beyond financial contributions. We have actively engaged in initiatives that foster the growth and sustainability of FOSS. We co-founded the &lt;a href=&quot;https:&#x2F;&#x2F;fossunited.org&#x2F;&quot;&gt;FOSS United Foundation&lt;&#x2F;a&gt; to bolster the open source ecosystem in India. We also support &lt;a href=&quot;https:&#x2F;&#x2F;tinkerspace.in&#x2F;home&#x2F;&quot;&gt;TinkerSpace&lt;&#x2F;a&gt;, a hub for FOSS tinkering and innovation. Additionally, we&#x27;ve supported projects like &lt;a href=&quot;https:&#x2F;&#x2F;erpnext.com&#x2F;&quot;&gt;ERPNext&lt;&#x2F;a&gt; and continue to maintain a &lt;a href=&quot;https:&#x2F;&#x2F;zerodha.tech&#x2F;projects&#x2F;&quot;&gt;few open source projects&lt;&#x2F;a&gt; that originated from our work at Zerodha.&lt;&#x2F;p&gt;
+&lt;p&gt;Over the years, we have also provided direct support to various projects through service agreements and support plans, agreed upon collaboratively with project maintainers.&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;By joining the Open Source Pledge and sharing our journey, we hope to inspire other companies to take similar steps. Supporting the open source projects we rely on is not just a responsibility; it&#x27;s an opportunity to contribute to a sustainable and innovative future for the tech industry.&lt;&#x2F;p&gt;
+&lt;p&gt;We are excited to be part of this initiative and look forward to continuing our support for the open source community. Together, we can build a more sustainable and innovative future for open source software.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Announcing FLOSS&#x2F;fund: $1M per year for free and open source projects</title>
+          <pubDate>Tue, 15 Oct 2024 00:00:00 +0000</pubDate>
+          <author>knadh</author>
+          <link>https://floss.fund/blog/announcing-floss-fund/</link>
+          <guid>https://floss.fund/blog/announcing-floss-fund/</guid>
+          <description xml:base="https://floss.fund/blog/announcing-floss-fund/">&lt;p&gt;TLDR; &lt;a href=&quot;https:&#x2F;&#x2F;dir.floss.fund&#x2F;submit&quot;&gt;Apply now&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;We are excited to announce the launch of a dedicated fund aimed at providing financial assistance to Free&#x2F;Libre and Open Source Software (FOSS&#x2F;FLOSS) projects globally, with an annual commitment of $1 million. I will use the FOSS acronym in this post hereafter.&lt;&#x2F;p&gt;
+&lt;p&gt;This has been in the works for some time at Zerodha&lt;sup&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zerodha.com&quot;&gt;[↗]&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, where we have been developing financial technology products and services built on an ever-growing FOSS stack. Without the high-quality FOSS projects that we have freely downloaded and used to build our organisation, products, and services, we would not exist as we do today—free as in both cost and freedom. A significant portion of our success and growth is owed to FOSS, encompassing everything from programming languages to operating systems, to databases, web servers, frontend frameworks, productivity tools, code editors, and absolutely everything. It goes without saying that this holds true for nearly every technology company founded in the last decade, whether it is publicly acknowledged or not.&lt;&#x2F;p&gt;
+&lt;p&gt;And yet, funding and financial sustainability, the lack thereof really, has been an increasingly hot topic over the last many years. Well, at least since &lt;em&gt;cloud&lt;&#x2F;em&gt; companies began making massive profits directly repackaging FOSS projects built by hobbyists and communities. The rise of the &quot;open core&quot; model and the unfortunate license changes in many good open projects recently, are clear signs of this growing turmoil. Many potential solutions seem to be emerging and evoling—commercial services, Venture Capital (VC) funding, and programs like GitHub Sponsors&lt;sup&gt;&lt;a href=&quot;https:&#x2F;&#x2F;github.com&#x2F;sponsors&quot;&gt;[↗]&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, Open Collective&lt;sup&gt;&lt;a href=&quot;https:&#x2F;&#x2F;opencollective.com&quot;&gt;[↗]&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, FUTO&lt;sup&gt;&lt;a href=&quot;https:&#x2F;&#x2F;futo.org&quot;&gt;[↗]&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, Polar&lt;sup&gt;&lt;a href=&quot;https:&#x2F;&#x2F;polar.sh&quot;&gt;[↗]&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, and &lt;em&gt;Buy me a coffee&lt;&#x2F;em&gt;&lt;sup&gt;&lt;a href=&quot;https:&#x2F;&#x2F;buymeacoffee.com&quot;&gt;[↗]&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, amongst others. That said, Python libraries raising massive amounts of VC funding in quick time does not look like a healthy trend.&lt;&#x2F;p&gt;
+&lt;p&gt;Why are we here, though? The fundamental tenets of FOSS, the spirit of hacking, liberty, and reciprocity, while they have worked beautifully with code, have translated poorly into the highly commercial &lt;em&gt;BigTech&lt;&#x2F;em&gt; era. So far, it has been nearly impossible to quantify and structure ideas of goodwill and reciprocity into financial sustenance for FOSS projects. I recall the log4j incident from a couple of years ago which unleashed a spate of philosophical debates around  FOSS, in which I also participated&lt;sup&gt;&lt;a href=&quot;https:&#x2F;&#x2F;nadh.in&#x2F;blog&#x2F;open-source-is-not-broken&#x2F;&quot;&gt;[↗]&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, rather ideologically.&lt;&#x2F;p&gt;
+&lt;p&gt;For us, FLOSS&#x2F;fund is about hacker goodwill, reciprocity, and common sense business strategy. We invite you to &lt;a href=&quot;https:&#x2F;&#x2F;dir.floss.fund&#x2F;submit&quot;&gt;apply for funding&lt;&#x2F;a&gt;. If you would like to understand the motivations behind this, a bit of storytelling lies ahead.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;prelude&quot;&gt;Prelude&lt;&#x2F;h2&gt;
+&lt;p&gt;The very first thing I did when we started Zerodha Tech more than a decade ago was to install Python and start scripting and automating time-consuming, mundane organisational tasks. Then came Postgres for building a small data warehouse, followed by PHP and WordPress for managing our website. From there, as we slowly grew the organisation, our technology stack expanded one piece of FOSS at a time, eventually leading to us becoming the largest stock broker in India several years later. Personally, my mental markup as a software developer and hacker is rooted in the simple act of copy-pasting open source code from the internet to hack, tinker, learn, and solve problems. An alternate vision is very difficult for me to comprehend, and a non-FOSS path to building technology, let alone an organisation, has never seemed logical.&lt;&#x2F;p&gt;
+&lt;p&gt;At Zerodha, over the years, we have contributed upstream to many projects that we use, as well as spun off and released several small and large FOSS projects&lt;sup&gt;&lt;a href=&quot;https:&#x2F;&#x2F;zerodha.tech&quot;&gt;[↗]&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; from our work. In 2019, we made a sizeable investment in ERPNext&lt;sup&gt;&lt;a href=&quot;https:&#x2F;&#x2F;erpnext.com&quot;&gt;[↗]&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, a FOSS ERP that we had begun using extensively. In 2020, we co-founded the FOSS United Foundation&lt;sup&gt;&lt;a href=&quot;https:&#x2F;&#x2F;fossunited.org&quot;&gt;[↗]&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, which works on developing the FOSS ecosystem in India, and backed the creation of TinkerSpace&lt;sup&gt;&lt;a href=&quot;https:&#x2F;&#x2F;www.tinkerhub.org&#x2F;tinkerspace&quot;&gt;[↗]&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, a physical hackerspace and community center that hosts FOSS tinkering for young people. In 2023, we were a founding member of OASIS (Open-Source Alliance for Social Innovation and Sustainability)&lt;sup&gt;&lt;a href=&quot;https:&#x2F;&#x2F;oasishq.org&quot;&gt;[↗]&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt;, which focuses on FOSS capacity building and adoption in social sector non-profit organisations. Many of us from our team also volunteer at non-profits, helping drive meaningful FOSS adoption in the development sector, where even basic technological requirements are woefully unmet. We fund many of these initiatives with long-term commitments.&lt;&#x2F;p&gt;
+&lt;p&gt;In addition, we have given out many sizeable grants to FOSS projects and organisations in India. While funding projects outside India involves significant paperwork and operational overhead, we have reached out to several small and large projects that we use at work and have managed to pay them. This highly ad hoc approach is something that has increasingly bugged me though.&lt;&#x2F;p&gt;
+&lt;p&gt;While it is good to provide financial support to FOSS-aligned activities, most importantly, money ought to go directly to the source—invaluable FOSS projects. We have managed to build a commercially successful business on top of FOSS that we have freely, in both cost and freedom, adopted from all over the world. Therefore, &quot;ad hoc&quot; and &quot;reaching out&quot; simply do not suffice—we have to shut up or put up.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;thus-structure&quot;&gt;Thus, structure.&lt;&#x2F;h2&gt;
+&lt;p&gt;And that is how the idea of a structured, dedicated fund for FOSS projects globally, was born. We spent several months speaking to various banks, payment processors, and lawyers to finally arrive at a reasonably streamlined process. The fund will:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Have a small, dedicated team to operate it properly in a non-adhoc manner, functioning like an OSPO (Open Source Program Office) but focused on funding projects—an OSFO (Open Source Funding Office), perhaps?&lt;&#x2F;li&gt;
+&lt;li&gt;Put money where the mouth is—a minimum of $10,000 and up to $100,000 for a single recipient, totaling $1 million per year, which we will increase once we understand the dynamics of running the fund.&lt;&#x2F;li&gt;
+&lt;li&gt;Source applications globally, relying on incoming applications through for discovering projects in need of support rather than the limited visibility we have as a small team.&lt;&#x2F;li&gt;
+&lt;li&gt;Form an interim internal selection committee to make discretionary selections. Once potential edge cases and any gotchas in running the program are handled, we will attempt to establish a public selection committee from the FOSS ecosystem with a community voting process for applications.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h2 id=&quot;more-structure-funding-json&quot;&gt;More structure: funding.json&lt;&#x2F;h2&gt;
+&lt;p&gt;Expanding a bit on &quot;ad hoc&quot; and &quot;reaching out&quot; I mentioned earlier, the  majority of our experience paying projects has transpired like this:&lt;&#x2F;p&gt;
+&lt;p&gt;On a random day, we realise that a certain FOSS project has become very useful to us. After a bit of online searching, we find the developer&#x27;s email address. We write to the developer, thanking them for their work, explaining how useful we find it, and expressing our interest in financially supporting it. They respond, thanking us but stating that they have not thought of any specific numbers. After a bit of friendly back and forth, we suggest an arbitrary amount, followed by more discussion about logistics and paperwork. This process of arriving at numbers over personal e-mails is awkward for both parties. In addition, it typically takes weeks, requiring time, commitment, and bandwidth from both the developer and the donor to complete a single transaction. Models like Open Collective and GitHub Sponsors address this to some extent, but there is no open, decentralized mechanism for discovering projects in need of financial assistance nor gaining insights into their specific needs.&lt;&#x2F;p&gt;
+&lt;p&gt;Any attempt on funding FOSS projects generally warrants clarity on several questions.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Does the project under consideration need financial assistance?&lt;&#x2F;li&gt;
+&lt;li&gt;Or perhaps it is not just one particular project, but a developer or a group of developers who maintain several projects that need assistance.&lt;&#x2F;li&gt;
+&lt;li&gt;What kind and quantum of financial assistance are needed, and for what activities? Is there a structured support plan that the developers offer?&lt;&#x2F;li&gt;
+&lt;li&gt;Has the project received any funding in the past? Is it in dire need of support, or is it doing reasonably well?&lt;&#x2F;li&gt;
+&lt;li&gt;What payment methods are accepted? Is there a payment link or address that can be used without manual contact, or is something like a bank wire that is required?&lt;&#x2F;li&gt;
+&lt;li&gt;Once there is enough context, and a conversation is warranted, how does one reach out to the right person who address financial or logistical queries?&lt;&#x2F;li&gt;
+&lt;li&gt;That&#x27;s about one project. But what about a particular category of projects? Maybe it is an emerging or critical area, and it would make sense to support multiple projects there. How does one discover them?&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;What if the answers to such questions could be structured in a machine readable format, which could be crawled, indexed, catalogued, and made discoverable—similar to a &lt;code&gt;robots.txt&lt;&#x2F;code&gt; or &lt;code&gt;package.json&lt;&#x2F;code&gt; or &lt;code&gt;sitemap.xml&lt;&#x2F;code&gt;, but for funding. In the process, eliminating a lot of awkwardness and apprehension that would be otherwise transpire over back-and-forth personal e-mails discussing financial matters.&lt;&#x2F;p&gt;
+&lt;p&gt;How about a standardised &lt;code&gt;funding.json&lt;&#x2F;code&gt; manifest file that can be added to project repositories and websites signalling their financial needs? Something like this:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;python&quot; style=&quot;background-color:#282c34;color:#abb2bf;&quot; class=&quot;language-python &quot;&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;$schema&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;floss.fund&#x2F;schema&#x2F;v1.0.0&#x2F;funding.schema.json#&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;version&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;v1.0.0&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;entity&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: {
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;type&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;individual&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;role&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;maintainer&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;name&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;The One (demo)&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;email&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;neo@example.com&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;phone&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;description&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;I&amp;#39;m a developer interested in preserving digital freedoms and the decentralised and open nature of the internet. I like breaking down barriers in the cyberspace with FOSS technologies.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#56b6c2;&quot;&gt;\n\n&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;Sometimes I can&amp;#39;t shake the feeling that the system we&amp;#39;re living in isn&amp;#39;t quite what it seems. That there is no spoon.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#56b6c2;&quot;&gt;\n\n&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;PS: This is a dummy listing.&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;webpageUrl&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: {
+&lt;&#x2F;span&gt;&lt;span&gt;            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;url&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;example.com&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;wellKnown&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;        }
+&lt;&#x2F;span&gt;&lt;span&gt;    },
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;projects&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: [{
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;guid&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;zombo-app&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;name&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;Zombo App (demo)&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;description&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;The Zombo App is a database application that solves many problems and makes anything possible. Anything at all. Its possibilities are only limited by the user&amp;#39;s own imagination.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#56b6c2;&quot;&gt;\n\n&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;It has been in active development for a decade and is used by millions of people worldwide. It is the next frontier.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#56b6c2;&quot;&gt;\n\n&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;PS: This is a dummy demo listing.&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;webpageUrl&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: {
+&lt;&#x2F;span&gt;&lt;span&gt;            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;url&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;example.com&#x2F;projects&#x2F;zombo&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;        },
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;repositoryUrl&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: {
+&lt;&#x2F;span&gt;&lt;span&gt;            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;url&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;github.com&#x2F;example&#x2F;zombo-app&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;wellKnown&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;github.com&#x2F;example&#x2F;zombo-app&#x2F;blob&#x2F;main&#x2F;.well-known&#x2F;funding-manifest-urls&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;        },
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;licenses&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;spdx:AGPL-3.0&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;],
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;tags&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;database&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;columnar-database&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;high-performance&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;key-value-store&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;span&gt;    },
+&lt;&#x2F;span&gt;&lt;span&gt;    {
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;guid&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;vb-gooey&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;name&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;VB Gooey IP tracer (demo)&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;description&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;Using quantum-entangled packet sniffers, this cutting-edge Visual Basic GUI IP Tracer employs hyper-threaded blockchain algorithms to decrypt the target&amp;#39;s digital DNA signature. The system&amp;#39;s neural network of overclocked RAM crystals generates a real-time holographic map of cyberspace, pinpointing the perp&amp;#39;s location with nanosecond precision.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#56b6c2;&quot;&gt;\n\n&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;In addition, its turbo-encabulated flux capacitor and multi-dimensional firewall penetrator, allows any hyper-dimensional air-gapped network to be broken into with ease.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#56b6c2;&quot;&gt;\n\n\n\n&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;PS: This is a dummy demo listing.&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;webpageUrl&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: {
+&lt;&#x2F;span&gt;&lt;span&gt;            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;url&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;vb-gooey-ip-tracer.net&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;wellKnown&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;vb-gooey-ip-tracer.net&#x2F;.well-known&#x2F;funding-manifest-urls&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;        },
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;repositoryUrl&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: {
+&lt;&#x2F;span&gt;&lt;span&gt;            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;url&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;github.com&#x2F;example&#x2F;vb-gooey-ip-tracer&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;            &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;wellKnown&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;github.com&#x2F;example&#x2F;vb-gooey-ip-tracer&#x2F;blob&#x2F;main&#x2F;.well-known&#x2F;funding-manifest-urls&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;        },
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;licenses&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;spdx:MIT&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;],
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;tags&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;high-performance&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;security&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;gui&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;networking&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;span&gt;    }],
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;funding&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: {
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;channels&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: [
+&lt;&#x2F;span&gt;&lt;span&gt;            {
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;guid&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;mybank&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;type&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;bank&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;address&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;description&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;Will accept direct bank transfers. Please e-mail me for details.&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;            },
+&lt;&#x2F;span&gt;&lt;span&gt;            {
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;guid&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;mypay&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;type&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;payment-provider&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;address&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;https:&#x2F;&#x2F;example.com&#x2F;payme&#x2F;@myid&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;description&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;Pay with your debit&#x2F;credit card through this gateway and setup recurring subscriptions.&amp;quot;
+&lt;&#x2F;span&gt;&lt;span&gt;            }
+&lt;&#x2F;span&gt;&lt;span&gt;        ],
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;plans&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: [
+&lt;&#x2F;span&gt;&lt;span&gt;            {
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;guid&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;hosting-monthly&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;status&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;active&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;name&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;Hosting support&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;description&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;This will cover the monthly server hosting costs for the projects.&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;amount&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;250&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;currency&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;USD&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;frequency&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;monthly&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;channels&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;mypay&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;span&gt;            },
+&lt;&#x2F;span&gt;&lt;span&gt;            {
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;guid&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;developer-time&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;status&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;active&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;name&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;Developer compensation&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;description&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;This will cover the cost of one developer working part-time on the projects.&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;amount&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;1000&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;currency&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;USD&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;frequency&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;monthly&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;channels&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;mybank&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;span&gt;            },
+&lt;&#x2F;span&gt;&lt;span&gt;            {
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;guid&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;angel-plan&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;status&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;active&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;name&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;Goodwill plan&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;description&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;Pay anything you wish to show your goodwill for the project.&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;amount&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;0&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;currency&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;USD&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;frequency&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;one-time&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;                &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;channels&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: [&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;mybank&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;mypay&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;span&gt;            }
+&lt;&#x2F;span&gt;&lt;span&gt;        ],
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;history&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: [
+&lt;&#x2F;span&gt;&lt;span&gt;            {&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;year&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;2020&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;income&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;10000&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;expenses&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;2000&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;taxes&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;200&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;currency&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;USD&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;description&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;Started accepting donations for the first time.&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;},
+&lt;&#x2F;span&gt;&lt;span&gt;            {&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;year&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;2021&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;income&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;15000&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;expenses&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;5000&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;taxes&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;500&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;currency&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;USD&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;description&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;},
+&lt;&#x2F;span&gt;&lt;span&gt;            {&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;year&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;2022&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;income&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;30000&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;expenses&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;10000&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;taxes&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;2000&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;currency&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;USD&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;description&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;},
+&lt;&#x2F;span&gt;&lt;span&gt;            {&lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;year&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;2023&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;income&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;25000&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;expenses&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;15000&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;taxes&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d19a66;&quot;&gt;1500&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;currency&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;USD&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;description&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#98c379;&quot;&gt;&amp;quot;There was a dip, but we see this improving.&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;        ]
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;To initiate and give this experiment a serious shot, FLOSS&#x2F;fund will accept funding requests from projects through a publicly accessible &lt;code&gt;funding.json&lt;&#x2F;code&gt; file hosted on their respositories or websites. This file is not meant to convey everything there is to know—an impossible task—but to solicit interest and communicate enough to ensure discoverability which would not be possible otherwise. Visit &lt;a href=&quot;https:&#x2F;&#x2F;fundingjson.org&quot;&gt;fundingjson.org&lt;&#x2F;a&gt; to know more.&lt;&#x2F;p&gt;
+&lt;p&gt;Applications that come through to the FLOSS&#x2F;fund will be indexed and published on the &lt;a href=&quot;https:&#x2F;&#x2F;dir.floss.fund&quot;&gt;dir.floss.fund&lt;&#x2F;a&gt; directory &#x2F; portal, making them publicly discoverable by anyone interested in supporting projects. This is going to be an interesting experiment. Fingers crossed!&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;motivations&quot;&gt;Motivations&lt;&#x2F;h2&gt;
+&lt;p&gt;What are the motivations behind the fund? On a personal level, it is common sense, goodwill, and reciprocity—the spirit of FOSS. From a for-profit enterprise perspective, however, terms like &quot;goodwill&quot; and &quot;reciprocity&quot; are notoriously problematic, and most likely fundamentally incompatible with their very nature. But, that is a separate philosophical debate altogether.&lt;&#x2F;p&gt;
+&lt;p&gt;Setting philosophies aside, it makes perfect logical sense for a business that relies on FOSS to support it, directly or indirectly, when they freely tap into a global ecosystem of unlimited FOSS innovation—free in both cost and freedom. How many technology companies today could even exist without the massive amounts of FOSS they use? Ensuring that this ecosystem thrives, without inadvertently turning parts of it into a classic tragedy of the commons, everything aside, is good, logical business strategy. At the very least, a profitable business should allocate a tiny fraction of its profits to support the projects it is directly reliant on. When many startups have advertising and marketing budgets that often put public spending to shame, one would be hard-pressed to find a reason not to give a bit of money  to the projects they depend on for their very existence.&lt;&#x2F;p&gt;
+&lt;p&gt;Thus, FLOSS&#x2F;fund&#x27;s motivations are to:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Exercise our goodwill and reciprocity on a personal level as FOSS hackers.&lt;&#x2F;li&gt;
+&lt;li&gt;Exercise our organisational business sense and strategy to help the FOSS ecosystem thrive, without which our business cannot exist.&lt;&#x2F;li&gt;
+&lt;li&gt;Encourage and apply a bit of peer-pressure on other businesses to setup structured financial support programmes for FOSS.&lt;&#x2F;li&gt;
+&lt;li&gt;Contribute to existing FOSS funding models and to the sustainability conversations and debates.&lt;&#x2F;li&gt;
+&lt;li&gt;As a bonus: Explore whether the &lt;code&gt;funding.json&lt;&#x2F;code&gt; manifest experiment can bring discoverability to the financial needs of FOSS projects on a large scale.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Let us see how this goes.&lt;&#x2F;p&gt;
+&lt;div style=&quot;text-align:center&quot;&gt;&lt;a href=&quot;https:&#x2F;&#x2F;dir.floss.fund&#x2F;submit&quot; class=&quot;button&quot;&gt;Apply now&lt;&#x2F;a&gt;&lt;&#x2F;div&gt;
+</description>
+      </item>
+    </channel>
+</rss>
