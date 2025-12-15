@@ -1,0 +1,55 @@
+{%- set year = year -%}
+{%- set data_path = "data/pledge/" ~ year ~ ".json" -%}
+{%- set data = load_data(path=data_path) -%}
+
+{% if data.items %}
+<div class="pledge-contributions">
+  {%- set_global total = 0 -%}
+  {%- set_global confirmed = 0 -%}
+
+  {% for item in data.items %}
+    {%- if item.amount -%}
+      {%- set_global total = total + item.amount -%}
+      {%- set_global confirmed = confirmed + item.amount -%}
+    {%- endif -%}
+  {% endfor %}
+
+  <table class="status-table">
+    <thead>
+      <tr>
+        <th>Contribution</th>
+        <th class="col-right">Amount</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for item in data.items %}
+        <tr>
+          <td width="40%">
+            {% if item.url %}
+              <a href="{{ item.url }}" target="_blank">{{ item.name }}</a>
+            {% else %}
+              {{ item.name }}
+            {% endif %}
+          </td>
+          <td class="col-right">
+            {% if item.amount %}
+              ${{ item.amount | default(value=0) }}
+            {% elif item.status == "todo" %}
+              <span class="status status-pending">TBD</span>
+            {% else %}
+              -
+            {% endif %}
+          </td>
+          <td>{{ item.notes | default(value="") }}</td>
+        </tr>
+      {% endfor %}
+      <tr>
+        <td><strong>Total (confirmed)</strong></td>
+        <td class="col-right"><strong>${{ confirmed }}</strong></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+{% endif %}

@@ -1,0 +1,54 @@
+{
+    "date": "2025-12-15",
+    "items": [
+        {
+            "name": "FLOSS/fund",
+            "url": "https://floss.fund",
+            "amount": 205000,
+            "notes": "Completed payments"
+        },
+        {
+            "name": "GitHub SOSS fund",
+            "url": "https://github.com/sponsors",
+            "amount": 500000
+        },
+        {
+            "name": "FOSS United",
+            "url": "https://fossunited.org",
+            "amount": 100000,
+            "notes": "Rs 8,871,667"
+        },
+        {
+            "name": "Tinkerhub",
+            "url": "https://tinkerhub.org",
+            "amount": null,
+            "status": "todo"
+        },
+        {
+            "name": "osvauld",
+            "url": null,
+            "amount": null,
+            "status": "todo",
+            "notes": "co-sponsored FU grant"
+        },
+        {
+            "name": "xenevaOS",
+            "url": null,
+            "amount": null,
+            "status": "todo"
+        },
+        {
+            "name": "dwani AI",
+            "url": null,
+            "amount": null,
+            "status": "todo"
+        },
+        {
+            "name": "Zasper",
+            "url": null,
+            "amount": null,
+            "status": "todo",
+            "notes": "co-sponsored FU grant"
+        }
+    ]
+}
