@@ -1,0 +1,40 @@
+{#
+  Shortcode to output pledge statistics dynamically.
+  Usage: {{ pledge_stat(year="2025", stat="total") }}
+
+  Available stats:
+  - total: Total confirmed contributions
+  - per_dev: Per-developer average
+  - dev_count: Number of developers
+  - prev_total: Previous year total
+  - prev_per_dev: Previous year per-dev
+  - increase: Multiplier increase from previous year (e.g., "3x")
+#}
+{%- set year = year -%}
+{%- set stat = stat | default(value="total") -%}
+{%- set data_path = "data/pledge/" ~ year ~ ".json" -%}
+{%- set data = load_data(path=data_path) -%}
+
+{%- set_global total = 0 -%}
+{% for item in data.items %}
+  {%- if item.amount -%}
+    {%- set_global total = total + item.amount -%}
+  {%- endif -%}
+{% endfor %}
+
+{%- set per_dev = total / data.developer_count | round -%}
+
+{%- if stat == "total" -%}
+${{ total | round }}
+{%- elif stat == "per_dev" -%}
+${{ per_dev | round }}
+{%- elif stat == "dev_count" -%}
+{{ data.developer_count }}
+{%- elif stat == "prev_total" -%}
+${{ data.previous_year.total }}
+{%- elif stat == "prev_per_dev" -%}
+${{ data.previous_year.per_dev }}
+{%- elif stat == "increase" -%}
+{%- set multiplier = total / data.previous_year.total -%}
+{{ multiplier | round }}x
+{%- endif -%}
