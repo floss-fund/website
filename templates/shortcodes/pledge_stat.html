@@ -25,15 +25,15 @@
 {%- set per_dev = total / data.developer_count | round -%}
 
 {%- if stat == "total" -%}
-${{ total | round }}
+${{ total | round | int | num_format }}
 {%- elif stat == "per_dev" -%}
-${{ per_dev | round }}
+${{ per_dev | round | int | num_format }}
 {%- elif stat == "dev_count" -%}
 {{ data.developer_count }}
 {%- elif stat == "prev_total" -%}
-${{ data.previous_year.total }}
+${{ data.previous_year.total | int | num_format }}
 {%- elif stat == "prev_per_dev" -%}
-${{ data.previous_year.per_dev }}
+${{ data.previous_year.per_dev | int | num_format }}
 {%- elif stat == "increase" -%}
 {%- set multiplier = total / data.previous_year.total -%}
 {{ multiplier | round }}x

@@ -12,7 +12,7 @@
 {%- for item in data.items -%}
   {%- if item.name == name -%}
     {%- if item.amount -%}
-${{ item.amount }}
+${{ item.amount | int | num_format }}
     {%- else -%}
 TBD
     {%- endif -%}

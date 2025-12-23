@@ -34,7 +34,7 @@
           </td>
           <td class="col-right">
             {% if item.amount %}
-              ${{ item.amount | default(value=0) }}
+              ${{ item.amount | int | num_format }}
             {% elif item.status == "todo" %}
               <span class="status status-pending">TBD</span>
             {% else %}
@@ -46,7 +46,7 @@
       {% endfor %}
       <tr>
         <td><strong>Total (confirmed)</strong></td>
-        <td class="col-right"><strong>${{ confirmed }}</strong></td>
+        <td class="col-right"><strong>${{ confirmed | int | num_format }}</strong></td>
         <td></td>
       </tr>
     </tbody>
