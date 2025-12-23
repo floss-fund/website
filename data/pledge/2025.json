@@ -14,7 +14,7 @@
         },
         {
             "name": "GitHub SOSS fund",
-            "url": "https://github.com/sponsors",
+            "url": "https://github.com/open-source/github-secure-open-source-fund",
             "amount": 500000
         },
         {
@@ -31,29 +31,27 @@
         },
         {
             "name": "osvauld",
-            "url": null,
-            "amount": null,
-            "status": "todo",
-            "notes": "co-sponsored FU grant"
+            "url": "https://osvauld.com",
+            "amount": 6647,
+            "notes": "Rs 6,00,000 - co-sponsored FU grant"
         },
         {
             "name": "xenevaOS",
-            "url": null,
-            "amount": null,
-            "status": "todo"
+            "url": "https://www.getxeneva.com",
+            "amount": 4432,
+            "notes": "Rs 4,00,000 (additional Rs 2,00,000 in Jan 2026)"
         },
         {
             "name": "dwani AI",
-            "url": null,
-            "amount": null,
-            "status": "todo"
+            "url": "https://dwani.ai",
+            "amount": 2216,
+            "notes": "Rs 2,00,000 one-time grant"
         },
         {
             "name": "Zasper",
-            "url": null,
-            "amount": null,
-            "status": "todo",
-            "notes": "co-sponsored FU grant"
+            "url": "https://zasper.io",
+            "amount": 4986,
+            "notes": "Rs 4,50,000 - co-sponsored FU grant"
         }
     ]
 }

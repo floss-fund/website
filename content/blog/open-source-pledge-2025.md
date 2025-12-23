@@ -15,7 +15,7 @@ This year, we have contributed a total of over {{ pledge_stat(year="2025", stat=
 
 A significant portion of this year's contributions flows through [FLOSS/fund](https://floss.fund), our initiative launched in October 2024 to support critical Free and Open Source projects globally. Through FLOSS/fund, we have allocated \$1 million in 2025 across two tranches to projects ranging from OpenSSL and FFmpeg to Blender and OpenStreetMap. The {{ pledge_item(year="2025", name="FLOSS/fund") }} figure below represents completed disbursements, with the remainder in process.
 
-We have also contributed {{ pledge_item(year="2025", name="GitHub SOSS fund") }} to the [GitHub Secure Open Source Fund](https://github.com/sponsors) to help maintain and secure the open source ecosystem.
+We have also contributed {{ pledge_item(year="2025", name="GitHub SOSS fund") }} to the [GitHub Secure Open Source Fund](https://github.com/open-source/github-secure-open-source-fund) to help maintain and secure the open source ecosystem.
 
 Additionally, we have contributed approximately {{ pledge_item(year="2025", name="FOSS United") }} to the [FOSS United Foundation](https://fossunited.org/) to support the open source ecosystem in India. Through FOSS United, we have also co-sponsored grants for promising projects.
 
