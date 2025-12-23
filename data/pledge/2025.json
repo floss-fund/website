@@ -24,12 +24,6 @@
             "notes": "Rs 8,871,667"
         },
         {
-            "name": "Tinkerhub",
-            "url": "https://tinkerhub.org",
-            "amount": null,
-            "status": "todo"
-        },
-        {
             "name": "osvauld",
             "url": "https://osvauld.com",
             "amount": 6647,
