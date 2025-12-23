@@ -1,0 +1,51 @@
+{
+    "date": "2025-12-15",
+    "developer_count": 33,
+    "previous_year": {
+        "total": 239600,
+        "per_dev": 7260
+    },
+    "items": [
+        {
+            "name": "FLOSS/fund",
+            "url": "https://floss.fund",
+            "amount": 205000,
+            "notes": "Completed payments"
+        },
+        {
+            "name": "GitHub SOSS fund",
+            "url": "https://github.com/open-source/github-secure-open-source-fund",
+            "amount": 500000
+        },
+        {
+            "name": "FOSS United",
+            "url": "https://fossunited.org",
+            "amount": 100000,
+            "notes": "Rs 8,871,667"
+        },
+        {
+            "name": "osvauld",
+            "url": "https://osvauld.com",
+            "amount": 6647,
+            "notes": "Rs 6,00,000 - co-sponsored FU grant"
+        },
+        {
+            "name": "xenevaOS",
+            "url": "https://www.getxeneva.com",
+            "amount": 4432,
+            "notes": "Rs 4,00,000 (additional Rs 2,00,000 in Jan 2026)"
+        },
+        {
+            "name": "dwani AI",
+            "url": "https://dwani.ai",
+            "amount": 2216,
+            "notes": "Rs 2,00,000 one-time grant"
+        },
+        {
+            "name": "Zasper",
+            "url": "https://zasper.io",
+            "amount": 4986,
+            "notes": "Rs 4,50,000 - co-sponsored FU grant"
+        }
+    ]
+}
