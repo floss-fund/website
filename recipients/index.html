@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  
+    <title>Recipients of FLOSS&#x2F;fund grants</title>
+  
+  
+  
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://floss.fund/rss.xml">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta property="og:image" content="https://floss.fund/static/thumb.png?h=5e8e05683a6e1d714472">
+  <link rel="shortcut icon" href="https://floss.fund/static/favicon.png" />
+
+  <link rel="stylesheet" type="text/css" media="screen" href="https://floss.fund/static/base.css?h=3830e68890e9c49262ad" />
+  <link rel="stylesheet" type="text/css" media="screen" href="https://floss.fund/static/style.css?h=63b09a9daba143c1ac69" />
+</head>
+
+<body>
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-2 col-fix">
+        <div class="logo"><a href="/"><img src="/static/logo.svg" alt="Funding for Free and Open Source projects - FLOSS&#x2F;fund" /></a></div>
+      </div>
+      <nav class="col-10 col-fix nav">
+        <input type="checkbox" id="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle nav">☰</label>
+
+        <div class="items">
+          <a href="https://floss.fund/faq/">FAQs</a>
+          <a href="https://floss.fund/projects/">Projects</a>
+          <a href="https://floss.fund/blog/">Blog</a>
+          <a href="https://dir.floss.fund/submit">Apply</a>
+          <a href="https://dir.floss.fund">Directory</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<div class="container main">
+  <section class="section content">
+    
+<section class="page">
+  <h1 id="recipients">Recipients</h1>
+<div class="recipients">
+<table><thead><tr><th style="text-align: left">Recipient</th><th style="text-align: left">Date</th><th style="text-align: left">Amount</th></tr></thead><tbody>
+<tr><td style="text-align: left"><a href="https://typst.app">Typst</a><br /><small>A new markup-based typesetting system that is powerful and easy to learn.</small></td><td style="text-align: left">May 2024</td><td style="text-align: left">$27,100</td></tr>
+</tbody></table>
+</div>
+ 
+</section>
+
+  </section>
+  
+  <footer class="footer">&copy; 2026.
+    An initiative from <a href="https://zerodha.com/open-source"><img src="https://zerodha.com/static/images/logo.svg" alt="Zerodha logo"></a>
+  </footer>
+</div>
+<script>
+(() => {
+  document.querySelectorAll('a[data-copy-clipboard]').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const pre = [...document.querySelectorAll('pre')]
+        .reverse()
+        .find(el => el.compareDocumentPosition(link) & Node.DOCUMENT_POSITION_FOLLOWING);
+      if (pre) {
+        navigator.clipboard.writeText(pre.innerText);
+        const originalText = link.innerText;
+        link.innerText = 'Copied ✓';
+        setTimeout(() => link.innerText = originalText, 2000);
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>
