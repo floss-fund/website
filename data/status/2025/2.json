@@ -77,7 +77,7 @@
             "name": "Kiwix",
             "url": "https://dir.floss.fund/view/projects/@kiwix.org",
             "amount": 15000,
-            "status": "pending"
+            "status": "complete"
         },
         {
             "name": "LFortran",
@@ -131,7 +131,7 @@
             "name": "quic-go",
             "url": "https://dir.floss.fund/view/@quic-go.net",
             "amount": 10000,
-            "status": "pending"
+            "status": "complete"
         },
         {
             "name": "Rethink DNS",
