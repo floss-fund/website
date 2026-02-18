@@ -116,12 +116,6 @@
             "status": "pending"
         },
         {
-            "name": "PocketBase",
-            "url": "https://dir.floss.fund/view/funding/@pocketbase.io",
-            "amount": 30000,
-            "status": "pending"
-        },
-        {
             "name": "postmarketOS",
             "url": "https://dir.floss.fund/view/project/@postmarketos.org/postmarketos",
             "amount": 25000,
