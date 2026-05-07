@@ -1,0 +1,17 @@
+{
+    "date": "2026-04-01",
+    "items": [
+        {
+            "name": "LibreOffice",
+            "url": "https://dir.floss.fund/view/project/@documentfoundation.org/libreoffice",
+            "amount": 100000,
+            "status": "pending"
+        },
+        {
+            "name": "Warpgate",
+            "url": "https://dir.floss.fund/view/project/@null.page/warpgate",
+            "amount": 30000,
+            "status": "complete"
+        }
+    ]
+}
