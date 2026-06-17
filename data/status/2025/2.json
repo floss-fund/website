@@ -101,7 +101,7 @@
             "name": "OpenRefine",
             "url": "https://dir.floss.fund/view/project/@openrefine.org/openrefine",
             "amount": 25000,
-            "status": "pending"
+            "status": "complete"
         },
         {
             "name": "OpenStreetMap",
@@ -137,7 +137,7 @@
             "name": "Sequoia PGP",
             "url": "https://dir.floss.fund/view/projects/@sequoia-pgp.org",
             "amount": 25000,
-            "status": "pending"
+            "status": "complete"
         },
         {
             "name": "tus",
