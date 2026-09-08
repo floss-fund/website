@@ -155,7 +155,7 @@
             "name": "Wireshark",
             "url": "https://dir.floss.fund/view/project/@wiresharkfoundation.org/wireshark",
             "amount": 25000,
-            "status": "pending"
+            "status": "complete"
         },
         {
             "name": "Yjs",
