@@ -1,0 +1,382 @@
+:root {
+    --primary: #0e813c;
+    --secondary: #aaa;
+    --black: #222;
+}
+
+* {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    min-width: 320px;
+}
+body {
+    background: #fff;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 1.45;
+    color: var(--black);
+}
+
+a {
+    color: var(--primary);
+    text-decoration: underline;
+}
+    a:hover {
+        color: var(--black);
+        text-decoration-thickness: 2.5px;
+    }
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+    line-height: 1.3;
+    margin-top: 2rem;
+    margin-bottom: 1em;
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+}
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+li {
+    margin-bottom: 1rem;
+}
+
+p {
+    margin: 0.5rem 0 1.1rem 0;
+}
+
+hr {
+    background: #eee;
+    border: 0;
+    height: 1px;
+    margin: 25px 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 5px;
+    margin: 30px 0;
+}
+    th, td {
+        padding: 5px 10px;
+        text-align: left;
+        vertical-align: top;
+    }
+    th {
+    }
+    td {
+        background: #fff;
+        border: 1px solid #ddd;
+    }
+
+code {
+    padding: 0 10px;
+    border-radius: 10px;
+}
+    pre {
+        border-radius: 10px;
+        max-width: 92vw;
+        padding: 15px;
+        overflow: scroll;
+    }
+    pre code {
+        display: block;
+        max-height: 50vh;
+    }
+    code:not(pre code) {
+        background: #edfbf3;
+        display: inline-block;
+    }
+sup a {
+    text-decoration: none;
+    padding: 0;
+    text-decoration-thickness: 0;
+    text-underline-offset: 0;
+}
+
+input {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 3px;
+    border: 1px solid #aaa;
+    width: 100%;
+}
+button {
+    font-size: 1rem;
+    border: 0;
+    cursor: pointer;
+}
+
+ul.flat {
+    list-style-type: none;
+    padding: 0;
+}
+
+button, .button {
+    background: var(--primary);
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    display: inline-block;
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: 0;
+}
+    button:hover,
+    .button:hover {
+        background: var(--black);
+        color: #fff;
+    }
+
+.dim-small {
+    font-size: 0.875rem;
+    color: #888;
+}
+
+.header {
+    background-color: #f8f8f8;
+    padding: 30px 0;
+    margin-bottom: 60px;
+}
+    .header .nav {
+        text-align: right;
+    }
+    .header .nav a {
+        margin-left: 30px;
+        text-decoration: none;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+    .nav-toggle-label {
+        display: none;
+        cursor: pointer;
+    }
+
+.main {
+    margin-bottom: 30px;
+}
+
+
+.logo img {
+    max-height: 72px;
+    transition: transform 0.7s ease-in-out;
+}
+    .logo img:hover {
+      transform: rotate(30deg); /* Full rotation on hover */
+    }
+
+.intro {
+    margin: 15vh 0 60px 0;
+}
+    .intro .title {
+        font-size: 2.5rem;
+        line-height: 1.3;
+        margin: 0 0 30px 0;
+    }
+    .intro h2 {
+        margin: 0;
+    }
+    .intro p {
+        color: #777;
+    }
+    .partner img {
+        display: inline-block;
+        width: 75px;
+        margin-top: 15px;
+    }
+    .definition ul {
+        padding: 0 0 0 15px;
+    }
+    .intro .name span {
+        color: var(--primary);
+    }
+    .intro code {
+        padding: 0;
+        background: none;
+    }
+
+
+.recipients table tbody tr td:first-child {
+    width: 70%;
+}
+    .recipients table thead tr th:nth-child(3),
+    .recipients table tbody tr td:nth-child(3) {
+        text-align: right;
+    }
+
+.status-table .status {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 3px;
+    background-color: #eee;
+    font-size: 0.775rem;
+    min-width: 100px;
+    text-align: center;
+}
+    .status-table .status-complete {
+        background: #e1fcec;
+        color: var(--primary);
+    }
+    .status-table .status-pending {
+        background: #fff7d8;
+        color: #b97823;
+    }
+    .status-table .col-right {
+        text-align: right;
+    }
+    .status-table a {
+        text-decoration: none;
+    }
+
+.footer {
+    border-top: 1px solid #eee;
+    padding-top: 30px;
+    margin: 10vh 0 15px 0;
+    color: var(--secondary);
+    font-size: 0.875rem;
+}
+    .footer a {
+        text-decoration: none;
+    }
+    .footer img {
+        filter: grayscale(100);
+        opacity: .4;
+        display: inline-block;
+        vertical-align: middle;
+        max-height: 12px;
+    }
+
+.posts-list {
+    list-style-type: none;
+    padding: 0;
+}
+    .posts-list .post .meta {
+        border-top: 1px solid #ddd;
+        padding-top: 15px;
+        font-size: 0.875rem;
+    }
+    .posts-list .post .date {
+        /* text-align: right; */
+        color: #888;
+        margin: 0;
+    }
+    .posts-list li {
+        margin-bottom: 90px;
+    }
+
+    .posts-list .post .title {
+        margin: 0 0 5px 0;
+    }
+
+.post .title {
+    margin: 0 0 15px 0;
+}
+    .post .date {
+        margin-bottom: 30px;
+    }
+    .post .title a {
+        text-decoration: none;
+    }
+    .date {
+        color: #888;
+    }
+
+.avatar {
+    font-size: 0.875rem;
+    display: flex;
+}
+    .avatar img {
+        border-radius: 100%;
+        max-width: 42px;
+    }
+    .avatar div:first-child {
+        flex-basis: 75px;
+        flex-grow: 0;
+    }
+    .avatar div:last-child {
+        flex-grow: 1;
+    }
+    .avatar .title {
+        color: #888;
+        display: block;
+    }
+    .avatar .links {
+        margin-top: 10px;
+    }
+    .avatar .links img {
+        opacity: 0.4;
+        max-height: 20px;
+        margin-right: 5px;
+    }
+
+    .main-post .avatar {
+        margin-top: 85px;
+        position: sticky;
+        top: 30px;
+    }
+
+
+@media (max-width: 800px) {
+    .header {
+        padding: 15px 0;
+        margin-bottom: 15px;
+    }
+    .logo img {
+        max-height: 28px;
+    }
+    .main {
+        margin: 15px 0;
+    }
+    .header .nav a {
+        margin: 0 0 10px 0;
+        display: block;
+    }
+   .nav-toggle-label {
+        display: block;
+        padding: 0 0 0 15px;
+        position: relative;
+        font-size: 1.3rem;
+    }
+    .header .nav .items {
+        display: none;
+        position: absolute;
+        background: rgba(255,255,255,0.95);
+        left: 0;
+        right: 35px;
+        padding: 0px;
+        z-index: 100;
+        top: 70px;
+    }
+    #nav-toggle:checked ~ .items {
+        display: block !important;
+    }
+
+    .header {
+        margin-bottom: 45px;
+    }
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .main-post .avatar {
+        margin: 0;
+    }
+}
