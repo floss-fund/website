@@ -107,7 +107,7 @@
             "name": "OpenStreetMap",
             "url": "https://dir.floss.fund/view/funding/@www.openstreetmap.org",
             "amount": 30000,
-            "status": "pending"
+            "status": "complete"
         },
         {
             "name": "pgmpy",
