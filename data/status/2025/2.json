@@ -5,7 +5,7 @@
             "name": "Blender",
             "url": "https://dir.floss.fund/view/projects/@www.blender.org",
             "amount": 25000,
-            "status": "pending"
+            "status": "complete"
         },
         {
             "name": "Crystal",
@@ -83,7 +83,7 @@
             "name": "LFortran",
             "url": "https://dir.floss.fund/view/projects/@lfortran.org",
             "amount": 10000,
-            "status": "pending"
+            "status": "complete"
         },
         {
             "name": "Matrix",
