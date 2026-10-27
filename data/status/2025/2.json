@@ -89,7 +89,7 @@
             "name": "Matrix",
             "url": "https://dir.floss.fund/view/projects/@matrix.org",
             "amount": 25000,
-            "status": "pending"
+            "status": "complete"
         },
         {
             "name": "OCaml/Tarides",
@@ -149,7 +149,7 @@
             "name": "vale",
             "url": "https://dir.floss.fund/view/@vale.sh",
             "amount": 10000,
-            "status": "pending"
+            "status": "complete"
         },
         {
             "name": "Wireshark",
