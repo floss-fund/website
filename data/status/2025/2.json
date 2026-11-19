@@ -65,13 +65,13 @@
             "name": "HOTOSM",
             "url": "https://dir.floss.fund/view/project/@github.com/hotosm/hotosm-tech-team",
             "amount": 50000,
-            "status": "pending"
+            "status": "complete"
         },
         {
             "name": "KDE e.V.",
             "url": "https://dir.floss.fund/view/projects/@ev.kde.org/.well-known",
             "amount": 25000,
-            "status": "pending"
+            "status": "complete"
         },
         {
             "name": "Kiwix",
