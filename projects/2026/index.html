@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  
+    <title>2026 FLOSS&#x2F;fund disbursements</title>
+  
+  
+  
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="https://floss.fund/rss.xml">
+  
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta property="og:image" content="https://floss.fund/static/thumb.png?h=5e8e05683a6e1d714472">
+  <link rel="shortcut icon" href="https://floss.fund/static/favicon.png" />
+
+  <link rel="stylesheet" type="text/css" media="screen" href="https://floss.fund/static/base.css?h=3830e68890e9c49262ad" />
+  <link rel="stylesheet" type="text/css" media="screen" href="https://floss.fund/static/style.css?h=63b09a9daba143c1ac69" />
+</head>
+
+<body>
+<header class="header">
+  <div class="container">
+    <div class="row">
+      <div class="col-2 col-fix">
+        <div class="logo"><a href="/"><img src="/static/logo.svg" alt="Funding for Free and Open Source projects - FLOSS&#x2F;fund" /></a></div>
+      </div>
+      <nav class="col-10 col-fix nav">
+        <input type="checkbox" id="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle nav">☰</label>
+
+        <div class="items">
+          <a href="https://floss.fund/faq/">FAQs</a>
+          <a href="https://floss.fund/projects/">Projects</a>
+          <a href="https://floss.fund/blog/">Blog</a>
+          <a href="https://dir.floss.fund/submit">Apply</a>
+          <a href="https://dir.floss.fund">Directory</a>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header>
+<div class="container main">
+  <section class="section content">
+    
+<section class="page">
+  <h1 id="2026-project-disbursements">2026 project disbursements</h1>
+<p>This page shows the status of all project disbursements for 2026, organised by tranches.</p>
+
+  <div class="status-tranche">
+    <h3>Tranche 1 (Apr 2026) &mdash; $130000</h3>
+
+    
+<table class="status-table">
+  <thead>
+    <tr>
+      <th>Project</th>
+      <th class="col-right">Amount</th>
+      <th class="col-right">Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    
+      <tr>
+        <td width="65%"><a href="https:&#x2F;&#x2F;dir.floss.fund&#x2F;view&#x2F;project&#x2F;@documentfoundation.org&#x2F;libreoffice" target="_blank">LibreOffice</a></td>
+        <td class="col-right">$100000</td>
+        <td class="col-right"><span class="status status-complete">Complete</span></td>
+      </tr>
+    
+      <tr>
+        <td width="65%"><a href="https:&#x2F;&#x2F;dir.floss.fund&#x2F;view&#x2F;project&#x2F;@null.page&#x2F;warpgate" target="_blank">Warpgate</a></td>
+        <td class="col-right">$30000</td>
+        <td class="col-right"><span class="status status-complete">Complete</span></td>
+      </tr>
+    
+    <tr>
+      <td class="col-right"><strong>Complete</strong></td>
+      <td class="col-right" colspan="1"><strong>$130000</strong></td>
+    </tr>
+    <tr>
+      <td class="col-right"><strong>Pending</strong></td>
+      <td class="col-right" colspan="1"><strong>$0</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  
+
+
+<h3>Total for 2026</h3>
+<table class="status-table">
+  <thead>
+    <tr>
+      <th>Total</th>
+      <th>complete</th>
+      <th>Pending</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>$130000</strong></td>
+      <td><strong>$130000</strong></td>
+      <td><strong>$0</strong></td>
+    </tr>
+  </tbody>
+</table>
+ 
+</section>
+
+  </section>
+  
+  <footer class="footer">&copy; 2026.
+    An initiative from <a href="https://zerodha.com/open-source"><img src="https://zerodha.com/static/images/logo.svg" alt="Zerodha logo"></a>
+  </footer>
+</div>
+<script>
+(() => {
+  document.querySelectorAll('a[data-copy-clipboard]').forEach(link => {
+    link.addEventListener('click', e => {
+      e.preventDefault();
+      const pre = [...document.querySelectorAll('pre')]
+        .reverse()
+        .find(el => el.compareDocumentPosition(link) & Node.DOCUMENT_POSITION_FOLLOWING);
+      if (pre) {
+        navigator.clipboard.writeText(pre.innerText);
+        const originalText = link.innerText;
+        link.innerText = 'Copied ✓';
+        setTimeout(() => link.innerText = originalText, 2000);
+      }
+    });
+  });
+})();
+</script>
+</body>
+</html>
